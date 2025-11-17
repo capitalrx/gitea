@@ -20,8 +20,8 @@ RUN apk --no-cache add \
     && rm -rf /var/cache/apk/*
 
 # Setup repo
-COPY . ${GOPATH}/src/code.gitea.io/gitea
-WORKDIR ${GOPATH}/src/code.gitea.io/gitea
+COPY . ${GOPATH}/src/github.com/capitalrx/gitea
+WORKDIR ${GOPATH}/src/github.com/capitalrx/gitea
 
 # Checkout version if set
 RUN if [ -n "${GITEA_VERSION}" ]; then git checkout "${GITEA_VERSION}"; fi \
