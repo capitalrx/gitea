@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/modules/util"
 )
 
 // ErrUserRedirectNotExist represents a "UserRedirectNotExist" kind of error.

@@ -7,17 +7,17 @@ import (
 	"context"
 	"strings"
 
-	asymkey_model "code.gitea.io/gitea/models/asymkey"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/organization"
-	user_model "code.gitea.io/gitea/models/user"
-	auth_module "code.gitea.io/gitea/modules/auth"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/optional"
-	asymkey_service "code.gitea.io/gitea/services/asymkey"
-	source_service "code.gitea.io/gitea/services/auth/source"
-	user_service "code.gitea.io/gitea/services/user"
+	asymkey_model "github.com/capitalrx/gitea/models/asymkey"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/models/organization"
+	user_model "github.com/capitalrx/gitea/models/user"
+	auth_module "github.com/capitalrx/gitea/modules/auth"
+	"github.com/capitalrx/gitea/modules/container"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/optional"
+	asymkey_service "github.com/capitalrx/gitea/services/asymkey"
+	source_service "github.com/capitalrx/gitea/services/auth/source"
+	user_service "github.com/capitalrx/gitea/services/user"
 )
 
 // Sync causes this ldap source to synchronize its users with the db

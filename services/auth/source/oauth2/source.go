@@ -4,8 +4,8 @@
 package oauth2
 
 import (
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/modules/json"
+	"github.com/capitalrx/gitea/models/auth"
+	"github.com/capitalrx/gitea/modules/json"
 )
 
 // Source holds configuration for the OAuth2 login source.

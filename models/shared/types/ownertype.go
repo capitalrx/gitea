@@ -3,7 +3,7 @@
 
 package types
 
-import "code.gitea.io/gitea/modules/translation"
+import "github.com/capitalrx/gitea/modules/translation"
 
 type OwnerType string
 

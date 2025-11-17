@@ -6,9 +6,9 @@ package convert
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/perm"
-	user_model "code.gitea.io/gitea/models/user"
-	api "code.gitea.io/gitea/modules/structs"
+	"github.com/capitalrx/gitea/models/perm"
+	user_model "github.com/capitalrx/gitea/models/user"
+	api "github.com/capitalrx/gitea/modules/structs"
 )
 
 // ToUser convert user_model.User to api.User

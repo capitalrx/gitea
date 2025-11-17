@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
+	"github.com/capitalrx/gitea/models/unittest"
 	"github.com/capitalrx/gitea/modules/setting"
 
 	"github.com/42wim/sshsig"

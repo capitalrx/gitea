@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/cache"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/modules/cache"
 	setting_module "github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"xorm.io/builder"
 )

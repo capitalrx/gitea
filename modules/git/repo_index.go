@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git/gitcmd"
+	"github.com/capitalrx/gitea/modules/git/gitcmd"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

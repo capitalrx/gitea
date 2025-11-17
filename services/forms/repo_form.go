@@ -8,12 +8,12 @@ import (
 	"net/http"
 	"strings"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	project_model "code.gitea.io/gitea/models/project"
-	"code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web/middleware"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/webhook"
+	issues_model "github.com/capitalrx/gitea/models/issues"
+	project_model "github.com/capitalrx/gitea/models/project"
+	"github.com/capitalrx/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/web/middleware"
+	"github.com/capitalrx/gitea/services/context"
+	"github.com/capitalrx/gitea/services/webhook"
 
 	"gitea.com/go-chi/binding"
 )

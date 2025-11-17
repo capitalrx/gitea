@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"strings"
 
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/reqctx"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/reqctx"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/web/middleware"
+	"github.com/capitalrx/gitea/modules/web/middleware"
 
 	"github.com/go-chi/chi/v5"
 )

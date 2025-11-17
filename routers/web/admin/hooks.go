@@ -6,11 +6,11 @@ package admin
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/models/webhook"
-	"code.gitea.io/gitea/modules/optional"
+	"github.com/capitalrx/gitea/models/webhook"
+	"github.com/capitalrx/gitea/modules/optional"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/services/context"
+	"github.com/capitalrx/gitea/modules/templates"
+	"github.com/capitalrx/gitea/services/context"
 )
 
 const (

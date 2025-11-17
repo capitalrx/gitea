@@ -7,12 +7,12 @@ import (
 	"context"
 	"fmt"
 
-	auth_model "code.gitea.io/gitea/models/auth"
-	user_model "code.gitea.io/gitea/models/user"
-	password_module "code.gitea.io/gitea/modules/auth/password"
-	"code.gitea.io/gitea/modules/optional"
+	auth_model "github.com/capitalrx/gitea/models/auth"
+	user_model "github.com/capitalrx/gitea/models/user"
+	password_module "github.com/capitalrx/gitea/modules/auth/password"
+	"github.com/capitalrx/gitea/modules/optional"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/structs"
 )
 
 type UpdateOptionField[T any] struct {

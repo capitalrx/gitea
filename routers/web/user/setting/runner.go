@@ -5,7 +5,7 @@ package setting
 
 import (
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/services/context"
+	"github.com/capitalrx/gitea/services/context"
 )
 
 func RedirectToDefaultSetting(ctx *context.Context) {

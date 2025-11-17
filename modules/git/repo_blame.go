@@ -6,7 +6,7 @@ package git
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/modules/git/gitcmd"
+	"github.com/capitalrx/gitea/modules/git/gitcmd"
 )
 
 // LineBlame returns the latest commit at the given line

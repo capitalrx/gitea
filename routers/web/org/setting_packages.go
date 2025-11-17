@@ -8,10 +8,10 @@ import (
 	"net/http"
 
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	shared "code.gitea.io/gitea/routers/web/shared/packages"
-	shared_user "code.gitea.io/gitea/routers/web/shared/user"
-	"code.gitea.io/gitea/services/context"
+	"github.com/capitalrx/gitea/modules/templates"
+	shared "github.com/capitalrx/gitea/routers/web/shared/packages"
+	shared_user "github.com/capitalrx/gitea/routers/web/shared/user"
+	"github.com/capitalrx/gitea/services/context"
 )
 
 const (

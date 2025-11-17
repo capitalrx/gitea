@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/modules/log"
-	base "code.gitea.io/gitea/modules/migration"
-	"code.gitea.io/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/log"
+	base "github.com/capitalrx/gitea/modules/migration"
+	"github.com/capitalrx/gitea/modules/structs"
 
 	gitea_sdk "code.gitea.io/sdk/gitea"
 )

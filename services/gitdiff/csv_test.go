@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	csv_module "code.gitea.io/gitea/modules/csv"
+	csv_module "github.com/capitalrx/gitea/modules/csv"
 	"github.com/capitalrx/gitea/modules/setting"
 
 	"github.com/stretchr/testify/assert"

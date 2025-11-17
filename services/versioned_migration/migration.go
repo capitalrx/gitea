@@ -6,8 +6,8 @@ package versioned_migration
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/migrations"
-	"code.gitea.io/gitea/modules/globallock"
+	"github.com/capitalrx/gitea/models/migrations"
+	"github.com/capitalrx/gitea/modules/globallock"
 
 	"xorm.io/xorm"
 )

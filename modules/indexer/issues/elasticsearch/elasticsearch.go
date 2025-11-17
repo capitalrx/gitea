@@ -8,12 +8,12 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/indexer"
-	indexer_internal "code.gitea.io/gitea/modules/indexer/internal"
-	inner_elasticsearch "code.gitea.io/gitea/modules/indexer/internal/elasticsearch"
-	"code.gitea.io/gitea/modules/indexer/issues/internal"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/graceful"
+	"github.com/capitalrx/gitea/modules/indexer"
+	indexer_internal "github.com/capitalrx/gitea/modules/indexer/internal"
+	inner_elasticsearch "github.com/capitalrx/gitea/modules/indexer/internal/elasticsearch"
+	"github.com/capitalrx/gitea/modules/indexer/issues/internal"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"github.com/olivere/elastic/v7"
 )

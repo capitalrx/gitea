@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/modules/cache"
-	"code.gitea.io/gitea/modules/git/gitcmd"
+	"github.com/capitalrx/gitea/modules/cache"
+	"github.com/capitalrx/gitea/modules/git/gitcmd"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

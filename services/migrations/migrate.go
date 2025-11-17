@@ -13,15 +13,15 @@ import (
 	"path/filepath"
 	"strings"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	system_model "code.gitea.io/gitea/models/system"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/hostmatcher"
-	"code.gitea.io/gitea/modules/log"
-	base "code.gitea.io/gitea/modules/migration"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	system_model "github.com/capitalrx/gitea/models/system"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/git"
+	"github.com/capitalrx/gitea/modules/hostmatcher"
+	"github.com/capitalrx/gitea/modules/log"
+	base "github.com/capitalrx/gitea/modules/migration"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/util"
 )
 
 // MigrateOptions is equal to base.MigrateOptions

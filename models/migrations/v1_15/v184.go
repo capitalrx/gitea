@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"code.gitea.io/gitea/models/migrations/base"
+	"github.com/capitalrx/gitea/models/migrations/base"
 	"github.com/capitalrx/gitea/modules/setting"
 
 	"xorm.io/xorm"

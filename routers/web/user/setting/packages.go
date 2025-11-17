@@ -7,13 +7,13 @@ import (
 	"net/http"
 	"strings"
 
-	user_model "code.gitea.io/gitea/models/user"
-	chef_module "code.gitea.io/gitea/modules/packages/chef"
+	user_model "github.com/capitalrx/gitea/models/user"
+	chef_module "github.com/capitalrx/gitea/modules/packages/chef"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/modules/util"
-	shared "code.gitea.io/gitea/routers/web/shared/packages"
-	"code.gitea.io/gitea/services/context"
+	"github.com/capitalrx/gitea/modules/templates"
+	"github.com/capitalrx/gitea/modules/util"
+	shared "github.com/capitalrx/gitea/routers/web/shared/packages"
+	"github.com/capitalrx/gitea/services/context"
 )
 
 const (

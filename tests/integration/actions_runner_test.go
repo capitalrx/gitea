@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	auth_model "code.gitea.io/gitea/models/auth"
+	auth_model "github.com/capitalrx/gitea/models/auth"
 	"github.com/capitalrx/gitea/modules/setting"
 
 	pingv1 "code.gitea.io/actions-proto-go/ping/v1"

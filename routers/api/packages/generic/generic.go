@@ -10,11 +10,11 @@ import (
 	"strings"
 	"unicode"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	packages_module "code.gitea.io/gitea/modules/packages"
-	"code.gitea.io/gitea/routers/api/packages/helper"
-	"code.gitea.io/gitea/services/context"
-	packages_service "code.gitea.io/gitea/services/packages"
+	packages_model "github.com/capitalrx/gitea/models/packages"
+	packages_module "github.com/capitalrx/gitea/modules/packages"
+	"github.com/capitalrx/gitea/routers/api/packages/helper"
+	"github.com/capitalrx/gitea/services/context"
+	packages_service "github.com/capitalrx/gitea/services/packages"
 )
 
 var (

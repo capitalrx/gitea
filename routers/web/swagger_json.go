@@ -7,7 +7,7 @@ import (
 	"html/template"
 
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/services/context"
+	"github.com/capitalrx/gitea/services/context"
 )
 
 // SwaggerV1Json render swagger v1 json

@@ -10,8 +10,8 @@ import (
 	"net/url"
 	"sort"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	npm_module "code.gitea.io/gitea/modules/packages/npm"
+	packages_model "github.com/capitalrx/gitea/models/packages"
+	npm_module "github.com/capitalrx/gitea/modules/packages/npm"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

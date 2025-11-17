@@ -12,9 +12,9 @@ import (
 	"io"
 	"strings"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/translation"
+	"github.com/capitalrx/gitea/modules/translation"
 )
 
 // RuneNBSP is the codepoint for NBSP

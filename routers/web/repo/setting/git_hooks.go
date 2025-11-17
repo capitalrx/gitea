@@ -6,8 +6,8 @@ package setting
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/services/context"
+	"github.com/capitalrx/gitea/modules/git"
+	"github.com/capitalrx/gitea/services/context"
 )
 
 // GitHooks hooks of a repository

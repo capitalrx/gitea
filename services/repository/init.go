@@ -9,13 +9,13 @@ import (
 	"os"
 	"time"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/git/gitcmd"
-	"code.gitea.io/gitea/modules/log"
-	repo_module "code.gitea.io/gitea/modules/repository"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/git/gitcmd"
+	"github.com/capitalrx/gitea/modules/log"
+	repo_module "github.com/capitalrx/gitea/modules/repository"
 	"github.com/capitalrx/gitea/modules/setting"
-	asymkey_service "code.gitea.io/gitea/services/asymkey"
+	asymkey_service "github.com/capitalrx/gitea/services/asymkey"
 )
 
 // initRepoCommit temporarily changes with work directory.

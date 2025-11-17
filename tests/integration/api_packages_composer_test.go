@@ -11,14 +11,14 @@ import (
 	neturl "net/url"
 	"testing"
 
-	"code.gitea.io/gitea/models/packages"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	composer_module "code.gitea.io/gitea/modules/packages/composer"
+	"github.com/capitalrx/gitea/models/packages"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	"github.com/capitalrx/gitea/models/unittest"
+	user_model "github.com/capitalrx/gitea/models/user"
+	composer_module "github.com/capitalrx/gitea/modules/packages/composer"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/routers/api/packages/composer"
-	"code.gitea.io/gitea/tests"
+	"github.com/capitalrx/gitea/routers/api/packages/composer"
+	"github.com/capitalrx/gitea/tests"
 
 	"github.com/stretchr/testify/assert"
 )

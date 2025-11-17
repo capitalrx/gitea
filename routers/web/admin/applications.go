@@ -6,12 +6,12 @@ package admin
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/models/db"
+	"github.com/capitalrx/gitea/models/auth"
+	"github.com/capitalrx/gitea/models/db"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	user_setting "code.gitea.io/gitea/routers/web/user/setting"
-	"code.gitea.io/gitea/services/context"
+	"github.com/capitalrx/gitea/modules/templates"
+	user_setting "github.com/capitalrx/gitea/routers/web/user/setting"
+	"github.com/capitalrx/gitea/services/context"
 )
 
 var (

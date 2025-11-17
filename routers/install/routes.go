@@ -8,12 +8,12 @@ import (
 	"html"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/public"
+	"github.com/capitalrx/gitea/modules/public"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/routers/common"
-	"code.gitea.io/gitea/routers/web/healthcheck"
-	"code.gitea.io/gitea/services/forms"
+	"github.com/capitalrx/gitea/modules/web"
+	"github.com/capitalrx/gitea/routers/common"
+	"github.com/capitalrx/gitea/routers/web/healthcheck"
+	"github.com/capitalrx/gitea/services/forms"
 )
 
 // Routes registers the installation routes

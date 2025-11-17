@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"code.gitea.io/gitea/modules/generate"
+	"github.com/capitalrx/gitea/modules/generate"
 )
 
 // LFS represents the server-side configuration for Git LFS.

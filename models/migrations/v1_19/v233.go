@@ -6,10 +6,10 @@ package v1_19
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/secret"
+	"github.com/capitalrx/gitea/modules/json"
+	"github.com/capitalrx/gitea/modules/secret"
 	"github.com/capitalrx/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
+	api "github.com/capitalrx/gitea/modules/structs"
 
 	"xorm.io/builder"
 	"xorm.io/xorm"

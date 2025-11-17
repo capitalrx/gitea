@@ -4,7 +4,7 @@
 package optional
 
 import (
-	"code.gitea.io/gitea/modules/json"
+	"github.com/capitalrx/gitea/modules/json"
 
 	"gopkg.in/yaml.v3"
 )

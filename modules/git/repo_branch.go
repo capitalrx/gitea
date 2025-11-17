@@ -9,7 +9,7 @@ import (
 	"errors"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git/gitcmd"
+	"github.com/capitalrx/gitea/modules/git/gitcmd"
 )
 
 // BranchPrefix base dir of the branch information file store on git

@@ -16,7 +16,7 @@ import (
 	"sort"
 	"strings"
 
-	"code.gitea.io/gitea/modules/container"
+	"github.com/capitalrx/gitea/modules/container"
 )
 
 // regexp is based on go-license, excluding README and NOTICE

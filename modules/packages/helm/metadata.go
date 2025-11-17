@@ -9,8 +9,8 @@ import (
 	"io"
 	"strings"
 
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/validation"
+	"github.com/capitalrx/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/validation"
 
 	"github.com/hashicorp/go-version"
 	"gopkg.in/yaml.v3"

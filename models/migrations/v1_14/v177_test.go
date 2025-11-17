@@ -6,8 +6,8 @@ package v1_14
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/migrations/base"
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/capitalrx/gitea/models/migrations/base"
+	"github.com/capitalrx/gitea/modules/timeutil"
 
 	"github.com/stretchr/testify/assert"
 )

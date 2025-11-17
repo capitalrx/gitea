@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"testing"
 
-	auth_model "code.gitea.io/gitea/models/auth"
+	auth_model "github.com/capitalrx/gitea/models/auth"
 )
 
 func TestGitSSHRedirect(t *testing.T) {

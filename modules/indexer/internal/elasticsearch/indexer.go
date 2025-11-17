@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 
-	"code.gitea.io/gitea/modules/indexer/internal"
+	"github.com/capitalrx/gitea/modules/indexer/internal"
 
 	"github.com/olivere/elastic/v7"
 )

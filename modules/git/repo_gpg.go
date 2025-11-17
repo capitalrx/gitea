@@ -9,8 +9,8 @@ import (
 	"os"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git/gitcmd"
-	"code.gitea.io/gitea/modules/process"
+	"github.com/capitalrx/gitea/modules/git/gitcmd"
+	"github.com/capitalrx/gitea/modules/process"
 )
 
 // LoadPublicKeyContent will load the key from gpg

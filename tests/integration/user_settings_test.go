@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"testing"
 
-	"code.gitea.io/gitea/modules/container"
+	"github.com/capitalrx/gitea/modules/container"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/tests"
+	"github.com/capitalrx/gitea/tests"
 
 	"github.com/stretchr/testify/assert"
 )

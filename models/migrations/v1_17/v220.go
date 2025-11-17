@@ -4,8 +4,8 @@
 package v1_17
 
 import (
-	packages_model "code.gitea.io/gitea/models/packages"
-	container_module "code.gitea.io/gitea/modules/packages/container"
+	packages_model "github.com/capitalrx/gitea/models/packages"
+	container_module "github.com/capitalrx/gitea/modules/packages/container"
 
 	"xorm.io/xorm"
 	"xorm.io/xorm/schemas"

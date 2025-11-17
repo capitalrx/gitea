@@ -9,13 +9,13 @@ import (
 	"image/png"
 	"io"
 
-	"code.gitea.io/gitea/models/avatars"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/avatar"
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/models/avatars"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/modules/avatar"
+	"github.com/capitalrx/gitea/modules/httplib"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/storage"
+	"github.com/capitalrx/gitea/modules/storage"
 )
 
 // CustomAvatarRelativePath returns user custom avatar relative path.

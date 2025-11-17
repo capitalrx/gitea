@@ -7,7 +7,7 @@ import (
 	"context"
 	"sort"
 
-	"code.gitea.io/gitea/models/db"
+	"github.com/capitalrx/gitea/models/db"
 
 	"xorm.io/builder"
 )

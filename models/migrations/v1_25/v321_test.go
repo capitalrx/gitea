@@ -6,9 +6,9 @@ package v1_25
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/migrations/base"
+	"github.com/capitalrx/gitea/models/migrations/base"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/capitalrx/gitea/modules/timeutil"
 
 	"github.com/stretchr/testify/assert"
 )

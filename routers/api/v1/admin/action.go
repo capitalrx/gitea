@@ -4,8 +4,8 @@
 package admin
 
 import (
-	"code.gitea.io/gitea/routers/api/v1/shared"
-	"code.gitea.io/gitea/services/context"
+	"github.com/capitalrx/gitea/routers/api/v1/shared"
+	"github.com/capitalrx/gitea/services/context"
 )
 
 // ListWorkflowJobs Lists all jobs

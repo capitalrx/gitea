@@ -6,7 +6,7 @@ package v1_20
 import (
 	"strings"
 
-	"code.gitea.io/gitea/modules/json"
+	"github.com/capitalrx/gitea/modules/json"
 
 	"xorm.io/xorm"
 )

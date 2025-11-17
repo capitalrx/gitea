@@ -6,8 +6,8 @@ package v1_16
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/migrations/base"
-	"code.gitea.io/gitea/modules/json"
+	"github.com/capitalrx/gitea/models/migrations/base"
+	"github.com/capitalrx/gitea/modules/json"
 
 	"github.com/stretchr/testify/assert"
 )

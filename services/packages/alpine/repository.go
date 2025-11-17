@@ -20,15 +20,15 @@ import (
 	"io"
 	"strings"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	alpine_model "code.gitea.io/gitea/models/packages/alpine"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/json"
-	packages_module "code.gitea.io/gitea/modules/packages"
-	alpine_module "code.gitea.io/gitea/modules/packages/alpine"
-	"code.gitea.io/gitea/modules/util"
-	packages_service "code.gitea.io/gitea/services/packages"
+	packages_model "github.com/capitalrx/gitea/models/packages"
+	alpine_model "github.com/capitalrx/gitea/models/packages/alpine"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/container"
+	"github.com/capitalrx/gitea/modules/json"
+	packages_module "github.com/capitalrx/gitea/modules/packages"
+	alpine_module "github.com/capitalrx/gitea/modules/packages/alpine"
+	"github.com/capitalrx/gitea/modules/util"
+	packages_service "github.com/capitalrx/gitea/services/packages"
 )
 
 const (

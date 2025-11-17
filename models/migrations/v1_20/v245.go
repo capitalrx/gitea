@@ -6,7 +6,7 @@ package v1_20
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/migrations/base"
+	"github.com/capitalrx/gitea/models/migrations/base"
 	"github.com/capitalrx/gitea/modules/setting"
 
 	"xorm.io/xorm"

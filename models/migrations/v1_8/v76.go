@@ -6,7 +6,7 @@ package v1_8
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/capitalrx/gitea/modules/timeutil"
 
 	"xorm.io/xorm"
 )

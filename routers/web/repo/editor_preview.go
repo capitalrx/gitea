@@ -6,8 +6,8 @@ package repo
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/services/context"
-	files_service "code.gitea.io/gitea/services/repository/files"
+	"github.com/capitalrx/gitea/services/context"
+	files_service "github.com/capitalrx/gitea/services/repository/files"
 )
 
 func DiffPreviewPost(ctx *context.Context) {

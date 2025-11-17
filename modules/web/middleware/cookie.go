@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"strings"
 
-	"code.gitea.io/gitea/modules/session"
+	"github.com/capitalrx/gitea/modules/session"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

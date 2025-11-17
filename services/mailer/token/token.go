@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"time"
 
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/util"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/util"
 )
 
 // A token is a verifiable container describing an action.

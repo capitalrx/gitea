@@ -6,7 +6,7 @@ package queue
 import (
 	"testing"
 
-	"code.gitea.io/gitea/modules/queue/lqinternal"
+	"github.com/capitalrx/gitea/modules/queue/lqinternal"
 	"github.com/capitalrx/gitea/modules/setting"
 
 	"gitea.com/lunny/levelqueue"

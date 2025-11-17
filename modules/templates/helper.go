@@ -12,16 +12,16 @@ import (
 	"strings"
 	"time"
 
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/htmlutil"
-	"code.gitea.io/gitea/modules/markup"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/base"
+	"github.com/capitalrx/gitea/modules/htmlutil"
+	"github.com/capitalrx/gitea/modules/markup"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/svg"
-	"code.gitea.io/gitea/modules/templates/eval"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/gitdiff"
-	"code.gitea.io/gitea/services/webtheme"
+	"github.com/capitalrx/gitea/modules/svg"
+	"github.com/capitalrx/gitea/modules/templates/eval"
+	"github.com/capitalrx/gitea/modules/util"
+	"github.com/capitalrx/gitea/services/gitdiff"
+	"github.com/capitalrx/gitea/services/webtheme"
 )
 
 // NewFuncMap returns functions for injecting to templates

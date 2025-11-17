@@ -8,10 +8,10 @@ import (
 	"mime/multipart"
 	"net/http"
 
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web/middleware"
-	"code.gitea.io/gitea/services/context"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/web/middleware"
+	"github.com/capitalrx/gitea/services/context"
 
 	"gitea.com/go-chi/binding"
 )

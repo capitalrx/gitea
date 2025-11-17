@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"code.gitea.io/gitea/modules/markup"
+	"github.com/capitalrx/gitea/modules/markup"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

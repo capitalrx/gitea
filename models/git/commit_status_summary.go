@@ -6,8 +6,8 @@ package git
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/commitstatus"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/modules/commitstatus"
 	"github.com/capitalrx/gitea/modules/setting"
 
 	"xorm.io/builder"

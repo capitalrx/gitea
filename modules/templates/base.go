@@ -7,7 +7,7 @@ import (
 	"slices"
 	"strings"
 
-	"code.gitea.io/gitea/modules/assetfs"
+	"github.com/capitalrx/gitea/modules/assetfs"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

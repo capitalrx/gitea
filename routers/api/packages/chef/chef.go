@@ -13,16 +13,16 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	packages_model "code.gitea.io/gitea/models/packages"
-	"code.gitea.io/gitea/modules/optional"
-	packages_module "code.gitea.io/gitea/modules/packages"
-	chef_module "code.gitea.io/gitea/modules/packages/chef"
+	"github.com/capitalrx/gitea/models/db"
+	packages_model "github.com/capitalrx/gitea/models/packages"
+	"github.com/capitalrx/gitea/modules/optional"
+	packages_module "github.com/capitalrx/gitea/modules/packages"
+	chef_module "github.com/capitalrx/gitea/modules/packages/chef"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/routers/api/packages/helper"
-	"code.gitea.io/gitea/services/context"
-	packages_service "code.gitea.io/gitea/services/packages"
+	"github.com/capitalrx/gitea/modules/util"
+	"github.com/capitalrx/gitea/routers/api/packages/helper"
+	"github.com/capitalrx/gitea/services/context"
+	packages_service "github.com/capitalrx/gitea/services/packages"
 )
 
 func apiError(ctx *context.Context, status int, obj any) {

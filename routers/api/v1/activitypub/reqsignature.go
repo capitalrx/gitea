@@ -13,10 +13,10 @@ import (
 	"net/http"
 	"net/url"
 
-	"code.gitea.io/gitea/modules/activitypub"
-	"code.gitea.io/gitea/modules/httplib"
+	"github.com/capitalrx/gitea/modules/activitypub"
+	"github.com/capitalrx/gitea/modules/httplib"
 	"github.com/capitalrx/gitea/modules/setting"
-	gitea_context "code.gitea.io/gitea/services/context"
+	gitea_context "github.com/capitalrx/gitea/services/context"
 
 	"github.com/42wim/httpsig"
 	ap "github.com/go-ap/activitypub"

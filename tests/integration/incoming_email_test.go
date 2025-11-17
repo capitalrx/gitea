@@ -12,15 +12,15 @@ import (
 	"testing"
 	"time"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
+	issues_model "github.com/capitalrx/gitea/models/issues"
+	"github.com/capitalrx/gitea/models/unittest"
+	user_model "github.com/capitalrx/gitea/models/user"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/services/mailer/incoming"
-	incoming_payload "code.gitea.io/gitea/services/mailer/incoming/payload"
-	sender_service "code.gitea.io/gitea/services/mailer/sender"
-	token_service "code.gitea.io/gitea/services/mailer/token"
-	"code.gitea.io/gitea/tests"
+	"github.com/capitalrx/gitea/services/mailer/incoming"
+	incoming_payload "github.com/capitalrx/gitea/services/mailer/incoming/payload"
+	sender_service "github.com/capitalrx/gitea/services/mailer/sender"
+	token_service "github.com/capitalrx/gitea/services/mailer/token"
+	"github.com/capitalrx/gitea/tests"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -9,12 +9,12 @@ import (
 	"html/template"
 	"strconv"
 
-	activities_model "code.gitea.io/gitea/models/activities"
-	"code.gitea.io/gitea/models/avatars"
-	"code.gitea.io/gitea/models/organization"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	gitea_html "code.gitea.io/gitea/modules/htmlutil"
+	activities_model "github.com/capitalrx/gitea/models/activities"
+	"github.com/capitalrx/gitea/models/avatars"
+	"github.com/capitalrx/gitea/models/organization"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	user_model "github.com/capitalrx/gitea/models/user"
+	gitea_html "github.com/capitalrx/gitea/modules/htmlutil"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

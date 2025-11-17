@@ -7,9 +7,9 @@ import (
 	"errors"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/services/context"
-	archiver_service "code.gitea.io/gitea/services/repository/archiver"
+	"github.com/capitalrx/gitea/modules/git"
+	"github.com/capitalrx/gitea/services/context"
+	archiver_service "github.com/capitalrx/gitea/services/repository/archiver"
 )
 
 func serveRepoArchive(ctx *context.APIContext, reqFileName string) {

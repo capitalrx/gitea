@@ -5,7 +5,7 @@ package v1_22
 
 import (
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/capitalrx/gitea/modules/timeutil"
 
 	"xorm.io/xorm"
 )

@@ -7,7 +7,7 @@ import (
 	"context"
 	"strings"
 
-	"code.gitea.io/gitea/modules/private"
+	"github.com/capitalrx/gitea/modules/private"
 	"github.com/capitalrx/gitea/modules/setting"
 
 	"github.com/urfave/cli/v3"

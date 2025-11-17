@@ -7,7 +7,7 @@ import (
 	"context"
 	"time"
 
-	"code.gitea.io/gitea/modules/reqctx"
+	"github.com/capitalrx/gitea/modules/reqctx"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

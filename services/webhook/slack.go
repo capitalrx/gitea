@@ -10,13 +10,13 @@ import (
 	"regexp"
 	"strings"
 
-	webhook_model "code.gitea.io/gitea/models/webhook"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
+	webhook_model "github.com/capitalrx/gitea/models/webhook"
+	"github.com/capitalrx/gitea/modules/git"
+	"github.com/capitalrx/gitea/modules/json"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	webhook_module "code.gitea.io/gitea/modules/webhook"
+	api "github.com/capitalrx/gitea/modules/structs"
+	webhook_module "github.com/capitalrx/gitea/modules/webhook"
 )
 
 // SlackMeta contains the slack metadata

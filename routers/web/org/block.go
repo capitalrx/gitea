@@ -6,9 +6,9 @@ package org
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/templates"
-	shared_user "code.gitea.io/gitea/routers/web/shared/user"
-	"code.gitea.io/gitea/services/context"
+	"github.com/capitalrx/gitea/modules/templates"
+	shared_user "github.com/capitalrx/gitea/routers/web/shared/user"
+	"github.com/capitalrx/gitea/services/context"
 )
 
 const (

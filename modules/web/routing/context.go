@@ -7,8 +7,8 @@ import (
 	"context"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/gtprof"
-	"code.gitea.io/gitea/modules/reqctx"
+	"github.com/capitalrx/gitea/modules/gtprof"
+	"github.com/capitalrx/gitea/modules/reqctx"
 )
 
 type contextKeyType struct{}

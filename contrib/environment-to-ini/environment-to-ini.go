@@ -7,7 +7,7 @@ import (
 	"context"
 	"os"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
 
 	"github.com/urfave/cli/v3"
