@@ -7,8 +7,8 @@ import (
 	"context"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git/gitcmd"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/git/gitcmd"
+	"github.com/capitalrx/gitea/modules/util"
 )
 
 // GetRefs returns all references of the repository.

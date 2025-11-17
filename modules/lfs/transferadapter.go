@@ -9,8 +9,8 @@ import (
 	"io"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/json"
+	"github.com/capitalrx/gitea/modules/log"
 )
 
 // TransferAdapter represents an adapter for downloading/uploading LFS objects.

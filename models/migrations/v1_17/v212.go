@@ -4,7 +4,7 @@
 package v1_17
 
 import (
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/capitalrx/gitea/modules/timeutil"
 
 	"xorm.io/xorm"
 )

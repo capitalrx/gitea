@@ -8,11 +8,11 @@ import (
 	"path"
 	"strconv"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/markup/markdown"
+	"github.com/capitalrx/gitea/modules/git"
+	"github.com/capitalrx/gitea/modules/markup/markdown"
 	"github.com/capitalrx/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/util"
+	api "github.com/capitalrx/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"gopkg.in/yaml.v3"
 )

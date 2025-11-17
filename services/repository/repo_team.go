@@ -8,11 +8,11 @@ import (
 	"errors"
 	"fmt"
 
-	"code.gitea.io/gitea/models/db"
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/models/organization"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	repo_model "code.gitea.io/gitea/models/repo"
+	"github.com/capitalrx/gitea/models/db"
+	issues_model "github.com/capitalrx/gitea/models/issues"
+	"github.com/capitalrx/gitea/models/organization"
+	access_model "github.com/capitalrx/gitea/models/perm/access"
+	repo_model "github.com/capitalrx/gitea/models/repo"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

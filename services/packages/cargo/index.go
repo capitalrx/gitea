@@ -12,17 +12,17 @@ import (
 	"path"
 	"strconv"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/json"
-	cargo_module "code.gitea.io/gitea/modules/packages/cargo"
+	packages_model "github.com/capitalrx/gitea/models/packages"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/git"
+	"github.com/capitalrx/gitea/modules/json"
+	cargo_module "github.com/capitalrx/gitea/modules/packages/cargo"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/util"
-	repo_service "code.gitea.io/gitea/services/repository"
-	files_service "code.gitea.io/gitea/services/repository/files"
+	"github.com/capitalrx/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/util"
+	repo_service "github.com/capitalrx/gitea/services/repository"
+	files_service "github.com/capitalrx/gitea/services/repository/files"
 )
 
 const (

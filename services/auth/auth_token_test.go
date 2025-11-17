@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	auth_model "code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/timeutil"
+	auth_model "github.com/capitalrx/gitea/models/auth"
+	"github.com/capitalrx/gitea/models/unittest"
+	"github.com/capitalrx/gitea/modules/timeutil"
 
 	"github.com/stretchr/testify/assert"
 )

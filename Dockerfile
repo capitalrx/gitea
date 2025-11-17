@@ -39,8 +39,8 @@ RUN chmod 755 /tmp/local/usr/bin/entrypoint \
               /tmp/local/etc/s6/gitea/* \
               /tmp/local/etc/s6/openssh/* \
               /tmp/local/etc/s6/.s6-svscan/* \
-              /go/src/code.gitea.io/gitea/gitea \
-              /go/src/code.gitea.io/gitea/environment-to-ini
+              /go/src/github.com/capitalrx/gitea/gitea \
+              /go/src/github.com/capitalrx/gitea/environment-to-ini
 
 FROM docker.io/library/alpine:3.22
 LABEL maintainer="maintainers@gitea.io"
@@ -82,5 +82,5 @@ ENTRYPOINT ["/usr/bin/entrypoint"]
 CMD ["/usr/bin/s6-svscan", "/etc/s6"]
 
 COPY --from=build-env /tmp/local /
-COPY --from=build-env /go/src/code.gitea.io/gitea/gitea /app/gitea/gitea
-COPY --from=build-env /go/src/code.gitea.io/gitea/environment-to-ini /usr/local/bin/environment-to-ini
+COPY --from=build-env /go/src/github.com/capitalrx/gitea/gitea /app/gitea/gitea
+COPY --from=build-env /go/src/github.com/capitalrx/gitea/environment-to-ini /usr/local/bin/environment-to-ini

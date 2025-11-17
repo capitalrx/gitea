@@ -7,11 +7,11 @@ import (
 	"slices"
 	"testing"
 
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/models/auth"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/models/unittest"
+	"github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/log"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

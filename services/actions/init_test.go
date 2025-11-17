@@ -7,10 +7,10 @@ import (
 	"os"
 	"testing"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/util"
+	actions_model "github.com/capitalrx/gitea/models/actions"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/models/unittest"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

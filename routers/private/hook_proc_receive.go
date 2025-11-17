@@ -7,14 +7,14 @@ import (
 	"errors"
 	"net/http"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/private"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/agit"
-	gitea_context "code.gitea.io/gitea/services/context"
+	issues_model "github.com/capitalrx/gitea/models/issues"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/git"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/private"
+	"github.com/capitalrx/gitea/modules/web"
+	"github.com/capitalrx/gitea/services/agit"
+	gitea_context "github.com/capitalrx/gitea/services/context"
 )
 
 // HookProcReceive proc-receive hook - only handles agit Proc-Receive requests at present

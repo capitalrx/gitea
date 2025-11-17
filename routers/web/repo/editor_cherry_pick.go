@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/forms"
-	"code.gitea.io/gitea/services/repository/files"
+	"github.com/capitalrx/gitea/modules/git"
+	"github.com/capitalrx/gitea/modules/util"
+	"github.com/capitalrx/gitea/services/context"
+	"github.com/capitalrx/gitea/services/forms"
+	"github.com/capitalrx/gitea/services/repository/files"
 )
 
 func CherryPick(ctx *context.Context) {

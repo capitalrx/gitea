@@ -11,7 +11,7 @@ import (
 	"runtime"
 
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/util"
 )
 
 func getHookTemplates() (hookNames, hookTpls, giteaHookTpls []string) {

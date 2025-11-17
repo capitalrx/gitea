@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/test"
+	"github.com/capitalrx/gitea/models/unittest"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/test"
 
 	"github.com/stretchr/testify/require"
 	"xorm.io/xorm"

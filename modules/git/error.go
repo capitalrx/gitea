@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"strings"
 
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/util"
 )
 
 // ErrNotExist commit not exist error

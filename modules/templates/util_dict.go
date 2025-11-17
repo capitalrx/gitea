@@ -10,8 +10,8 @@ import (
 	"html/template"
 	"reflect"
 
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/json"
+	"github.com/capitalrx/gitea/modules/container"
+	"github.com/capitalrx/gitea/modules/json"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

@@ -17,7 +17,7 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git/gitcmd"
+	"github.com/capitalrx/gitea/modules/git/gitcmd"
 )
 
 // GetMergeBase checks and returns merge base of two branches and the reference used as base.

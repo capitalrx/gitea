@@ -9,11 +9,11 @@ import (
 	"net/url"
 	"testing"
 
-	auth_model "code.gitea.io/gitea/models/auth"
+	auth_model "github.com/capitalrx/gitea/models/auth"
 	"github.com/capitalrx/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/tests"
+	api "github.com/capitalrx/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/test"
+	"github.com/capitalrx/gitea/tests"
 
 	"github.com/42wim/httpsig"
 	"golang.org/x/crypto/ssh"

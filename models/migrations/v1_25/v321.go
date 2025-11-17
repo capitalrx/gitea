@@ -4,7 +4,7 @@
 package v1_25
 
 import (
-	"code.gitea.io/gitea/models/migrations/base"
+	"github.com/capitalrx/gitea/models/migrations/base"
 	"github.com/capitalrx/gitea/modules/setting"
 
 	"xorm.io/xorm"

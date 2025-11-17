@@ -4,9 +4,9 @@
 package mirror
 
 import (
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/queue"
+	"github.com/capitalrx/gitea/modules/graceful"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/queue"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

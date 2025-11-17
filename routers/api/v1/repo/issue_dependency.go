@@ -7,15 +7,15 @@ package repo
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/models/db"
-	issues_model "code.gitea.io/gitea/models/issues"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	repo_model "code.gitea.io/gitea/models/repo"
+	"github.com/capitalrx/gitea/models/db"
+	issues_model "github.com/capitalrx/gitea/models/issues"
+	access_model "github.com/capitalrx/gitea/models/perm/access"
+	repo_model "github.com/capitalrx/gitea/models/repo"
 	"github.com/capitalrx/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
+	api "github.com/capitalrx/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/web"
+	"github.com/capitalrx/gitea/services/context"
+	"github.com/capitalrx/gitea/services/convert"
 )
 
 // GetIssueDependencies list an issue's dependencies

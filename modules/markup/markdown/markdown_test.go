@@ -9,12 +9,12 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/markup/markdown"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/markup"
+	"github.com/capitalrx/gitea/modules/markup/markdown"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/test"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"github.com/stretchr/testify/assert"
 )

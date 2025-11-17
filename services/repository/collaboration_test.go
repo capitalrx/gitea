@@ -6,10 +6,10 @@ package repository
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/perm"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
+	"github.com/capitalrx/gitea/models/perm"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	"github.com/capitalrx/gitea/models/unittest"
+	user_model "github.com/capitalrx/gitea/models/user"
 
 	"github.com/stretchr/testify/assert"
 )

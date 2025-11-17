@@ -7,8 +7,8 @@ import (
 	"crypto/sha256"
 	"fmt"
 
-	"code.gitea.io/gitea/modules/cache"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/cache"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

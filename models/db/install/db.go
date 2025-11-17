@@ -6,7 +6,7 @@ package install
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/db"
+	"github.com/capitalrx/gitea/models/db"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

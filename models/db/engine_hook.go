@@ -7,8 +7,8 @@ import (
 	"context"
 	"time"
 
-	"code.gitea.io/gitea/modules/gtprof"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/gtprof"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
 
 	"xorm.io/xorm/contexts"

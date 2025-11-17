@@ -17,15 +17,15 @@ import (
 	"strings"
 	"sync/atomic"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/log"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/httplib"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/storage"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/modules/typesniffer"
-	sender_service "code.gitea.io/gitea/services/mailer/sender"
+	"github.com/capitalrx/gitea/modules/storage"
+	"github.com/capitalrx/gitea/modules/templates"
+	"github.com/capitalrx/gitea/modules/typesniffer"
+	sender_service "github.com/capitalrx/gitea/services/mailer/sender"
 
 	"golang.org/x/net/html"
 )

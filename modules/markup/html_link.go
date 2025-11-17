@@ -8,8 +8,8 @@ import (
 	"path"
 	"strings"
 
-	"code.gitea.io/gitea/modules/markup/common"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/markup/common"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"

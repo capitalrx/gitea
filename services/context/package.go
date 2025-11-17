@@ -7,14 +7,14 @@ import (
 	"fmt"
 	"net/http"
 
-	"code.gitea.io/gitea/models/organization"
-	packages_model "code.gitea.io/gitea/models/packages"
-	"code.gitea.io/gitea/models/perm"
-	"code.gitea.io/gitea/models/unit"
-	user_model "code.gitea.io/gitea/models/user"
+	"github.com/capitalrx/gitea/models/organization"
+	packages_model "github.com/capitalrx/gitea/models/packages"
+	"github.com/capitalrx/gitea/models/perm"
+	"github.com/capitalrx/gitea/models/unit"
+	user_model "github.com/capitalrx/gitea/models/user"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/templates"
+	"github.com/capitalrx/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/templates"
 )
 
 // Package contains owner, access mode and optional the package descriptor

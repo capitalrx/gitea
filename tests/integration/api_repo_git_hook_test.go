@@ -8,14 +8,14 @@ import (
 	"net/http"
 	"testing"
 
-	auth_model "code.gitea.io/gitea/models/auth"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
+	auth_model "github.com/capitalrx/gitea/models/auth"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	"github.com/capitalrx/gitea/models/unittest"
+	user_model "github.com/capitalrx/gitea/models/user"
 	"github.com/capitalrx/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/tests"
+	api "github.com/capitalrx/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/test"
+	"github.com/capitalrx/gitea/tests"
 
 	"github.com/stretchr/testify/assert"
 )

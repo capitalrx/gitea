@@ -7,13 +7,13 @@ import (
 	"bytes"
 	"fmt"
 
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/modules/timeutil"
-	"code.gitea.io/gitea/modules/translation"
-	sender_service "code.gitea.io/gitea/services/mailer/sender"
+	"github.com/capitalrx/gitea/modules/templates"
+	"github.com/capitalrx/gitea/modules/timeutil"
+	"github.com/capitalrx/gitea/modules/translation"
+	sender_service "github.com/capitalrx/gitea/services/mailer/sender"
 )
 
 const (

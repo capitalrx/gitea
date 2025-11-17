@@ -9,10 +9,10 @@ import (
 	"os"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/cache"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/modules/cache"
+	"github.com/capitalrx/gitea/modules/json"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

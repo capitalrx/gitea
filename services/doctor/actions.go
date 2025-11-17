@@ -7,15 +7,15 @@ import (
 	"context"
 	"fmt"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	unit_model "code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/optional"
+	actions_model "github.com/capitalrx/gitea/models/actions"
+	"github.com/capitalrx/gitea/models/db"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	unit_model "github.com/capitalrx/gitea/models/unit"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/optional"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
-	repo_service "code.gitea.io/gitea/services/repository"
+	"github.com/capitalrx/gitea/modules/timeutil"
+	repo_service "github.com/capitalrx/gitea/services/repository"
 
 	"xorm.io/builder"
 )

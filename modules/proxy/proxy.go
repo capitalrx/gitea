@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	"code.gitea.io/gitea/modules/glob"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/glob"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

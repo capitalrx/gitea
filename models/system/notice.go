@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/storage"
-	"code.gitea.io/gitea/modules/timeutil"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/modules/graceful"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/storage"
+	"github.com/capitalrx/gitea/modules/timeutil"
+	"github.com/capitalrx/gitea/modules/util"
 )
 
 // NoticeType describes the notice type

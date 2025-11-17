@@ -7,15 +7,15 @@ import (
 	"errors"
 	"net/http"
 
-	"code.gitea.io/gitea/models/packages"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/optional"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/routers/api/v1/utils"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
-	packages_service "code.gitea.io/gitea/services/packages"
+	"github.com/capitalrx/gitea/models/packages"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	"github.com/capitalrx/gitea/modules/optional"
+	api "github.com/capitalrx/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/util"
+	"github.com/capitalrx/gitea/routers/api/v1/utils"
+	"github.com/capitalrx/gitea/services/context"
+	"github.com/capitalrx/gitea/services/convert"
+	packages_service "github.com/capitalrx/gitea/services/packages"
 )
 
 // ListPackages gets all packages of an owner

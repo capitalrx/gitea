@@ -12,11 +12,11 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/process"
+	"github.com/capitalrx/gitea/modules/graceful"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/process"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"github.com/caddyserver/certmagic"
 )

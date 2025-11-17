@@ -12,12 +12,12 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/modules/assetfs"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/httpcache"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/assetfs"
+	"github.com/capitalrx/gitea/modules/container"
+	"github.com/capitalrx/gitea/modules/httpcache"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/util"
 )
 
 func CustomAssets() *assetfs.Layer {

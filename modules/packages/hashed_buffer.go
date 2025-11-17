@@ -7,7 +7,7 @@ import (
 	"io"
 
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util/filebuffer"
+	"github.com/capitalrx/gitea/modules/util/filebuffer"
 )
 
 // HashedSizeReader provide methods to read, sum hashes and a Size method

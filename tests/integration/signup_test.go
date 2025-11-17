@@ -9,13 +9,13 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/models/unittest"
+	user_model "github.com/capitalrx/gitea/models/user"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/modules/translation"
-	"code.gitea.io/gitea/tests"
+	"github.com/capitalrx/gitea/modules/test"
+	"github.com/capitalrx/gitea/modules/translation"
+	"github.com/capitalrx/gitea/tests"
 
 	"github.com/stretchr/testify/assert"
 )

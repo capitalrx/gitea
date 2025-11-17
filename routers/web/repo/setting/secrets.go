@@ -7,12 +7,12 @@ import (
 	"errors"
 	"net/http"
 
-	user_model "code.gitea.io/gitea/models/user"
+	user_model "github.com/capitalrx/gitea/models/user"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	shared "code.gitea.io/gitea/routers/web/shared/secrets"
-	shared_user "code.gitea.io/gitea/routers/web/shared/user"
-	"code.gitea.io/gitea/services/context"
+	"github.com/capitalrx/gitea/modules/templates"
+	shared "github.com/capitalrx/gitea/routers/web/shared/secrets"
+	shared_user "github.com/capitalrx/gitea/routers/web/shared/user"
+	"github.com/capitalrx/gitea/services/context"
 )
 
 const (

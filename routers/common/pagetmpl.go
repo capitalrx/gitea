@@ -8,11 +8,11 @@ import (
 	"errors"
 	"sync"
 
-	activities_model "code.gitea.io/gitea/models/activities"
-	"code.gitea.io/gitea/models/db"
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/services/context"
+	activities_model "github.com/capitalrx/gitea/models/activities"
+	"github.com/capitalrx/gitea/models/db"
+	issues_model "github.com/capitalrx/gitea/models/issues"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/services/context"
 )
 
 // StopwatchTmplInfo is a view on a stopwatch specifically for template rendering

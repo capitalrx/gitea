@@ -6,12 +6,12 @@ package user
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/optional"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
-	user_service "code.gitea.io/gitea/services/user"
+	"github.com/capitalrx/gitea/modules/optional"
+	api "github.com/capitalrx/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/web"
+	"github.com/capitalrx/gitea/services/context"
+	"github.com/capitalrx/gitea/services/convert"
+	user_service "github.com/capitalrx/gitea/services/user"
 )
 
 // GetUserSettings returns user settings

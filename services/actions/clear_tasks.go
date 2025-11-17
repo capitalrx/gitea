@@ -8,15 +8,15 @@ import (
 	"fmt"
 	"time"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/actions"
-	"code.gitea.io/gitea/modules/log"
+	actions_model "github.com/capitalrx/gitea/models/actions"
+	"github.com/capitalrx/gitea/models/db"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	"github.com/capitalrx/gitea/modules/actions"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
-	webhook_module "code.gitea.io/gitea/modules/webhook"
-	notify_service "code.gitea.io/gitea/services/notify"
+	"github.com/capitalrx/gitea/modules/timeutil"
+	webhook_module "github.com/capitalrx/gitea/modules/webhook"
+	notify_service "github.com/capitalrx/gitea/services/notify"
 )
 
 // StopZombieTasks stops the task which have running status, but haven't been updated for a long time

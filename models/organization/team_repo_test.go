@@ -6,11 +6,11 @@ package organization_test
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/organization"
-	"code.gitea.io/gitea/models/perm"
-	"code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/models/unittest"
+	"github.com/capitalrx/gitea/models/organization"
+	"github.com/capitalrx/gitea/models/perm"
+	"github.com/capitalrx/gitea/models/repo"
+	"github.com/capitalrx/gitea/models/unit"
+	"github.com/capitalrx/gitea/models/unittest"
 
 	"github.com/stretchr/testify/assert"
 )

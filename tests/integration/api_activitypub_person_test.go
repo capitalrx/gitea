@@ -9,12 +9,12 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/activitypub"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/activitypub"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/routers"
-	"code.gitea.io/gitea/tests"
+	"github.com/capitalrx/gitea/modules/test"
+	"github.com/capitalrx/gitea/routers"
+	"github.com/capitalrx/gitea/tests"
 
 	ap "github.com/go-ap/activitypub"
 	"github.com/stretchr/testify/assert"

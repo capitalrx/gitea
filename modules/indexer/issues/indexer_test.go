@@ -6,16 +6,16 @@ package issues
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/indexer/issues/internal"
-	"code.gitea.io/gitea/modules/optional"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/models/issues"
+	"github.com/capitalrx/gitea/models/unittest"
+	"github.com/capitalrx/gitea/modules/indexer/issues/internal"
+	"github.com/capitalrx/gitea/modules/optional"
 	"github.com/capitalrx/gitea/modules/setting"
 
-	_ "code.gitea.io/gitea/models"
-	_ "code.gitea.io/gitea/models/actions"
-	_ "code.gitea.io/gitea/models/activities"
+	_ "github.com/capitalrx/gitea/models"
+	_ "github.com/capitalrx/gitea/models/actions"
+	_ "github.com/capitalrx/gitea/models/activities"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

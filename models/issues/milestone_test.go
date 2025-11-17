@@ -7,14 +7,14 @@ import (
 	"sort"
 	"testing"
 
-	"code.gitea.io/gitea/models/db"
-	issues_model "code.gitea.io/gitea/models/issues"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/optional"
+	"github.com/capitalrx/gitea/models/db"
+	issues_model "github.com/capitalrx/gitea/models/issues"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	"github.com/capitalrx/gitea/models/unittest"
+	"github.com/capitalrx/gitea/modules/optional"
 	"github.com/capitalrx/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/timeutil"
+	api "github.com/capitalrx/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/timeutil"
 
 	"github.com/stretchr/testify/assert"
 )

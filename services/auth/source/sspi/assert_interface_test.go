@@ -4,8 +4,8 @@
 package sspi_test
 
 import (
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/services/auth/source/sspi"
+	"github.com/capitalrx/gitea/models/auth"
+	"github.com/capitalrx/gitea/services/auth/source/sspi"
 )
 
 // This test file exists to assert that our Source exposes the interfaces that we expect

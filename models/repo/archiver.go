@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/timeutil"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/modules/git"
+	"github.com/capitalrx/gitea/modules/timeutil"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"xorm.io/builder"
 )

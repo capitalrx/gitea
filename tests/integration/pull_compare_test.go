@@ -9,12 +9,12 @@ import (
 	"net/url"
 	"testing"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/test"
-	repo_service "code.gitea.io/gitea/services/repository"
-	"code.gitea.io/gitea/tests"
+	issues_model "github.com/capitalrx/gitea/models/issues"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	"github.com/capitalrx/gitea/models/unittest"
+	"github.com/capitalrx/gitea/modules/test"
+	repo_service "github.com/capitalrx/gitea/services/repository"
+	"github.com/capitalrx/gitea/tests"
 
 	"github.com/stretchr/testify/assert"
 )

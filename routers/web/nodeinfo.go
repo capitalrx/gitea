@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/services/context"
+	"github.com/capitalrx/gitea/services/context"
 )
 
 type nodeInfoLinks struct {

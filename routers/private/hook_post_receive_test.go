@@ -6,14 +6,14 @@ package private
 import (
 	"testing"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	pull_model "code.gitea.io/gitea/models/pull"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/private"
-	repo_module "code.gitea.io/gitea/modules/repository"
-	"code.gitea.io/gitea/services/contexttest"
+	issues_model "github.com/capitalrx/gitea/models/issues"
+	pull_model "github.com/capitalrx/gitea/models/pull"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	"github.com/capitalrx/gitea/models/unittest"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/private"
+	repo_module "github.com/capitalrx/gitea/modules/repository"
+	"github.com/capitalrx/gitea/services/contexttest"
 
 	"github.com/stretchr/testify/assert"
 )

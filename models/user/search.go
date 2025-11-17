@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/structs"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/modules/container"
+	"github.com/capitalrx/gitea/modules/optional"
+	"github.com/capitalrx/gitea/modules/structs"
 
 	"xorm.io/builder"
 	"xorm.io/xorm"

@@ -12,15 +12,15 @@ import (
 	"strings"
 	"testing"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/markup"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	"github.com/capitalrx/gitea/models/unittest"
+	"github.com/capitalrx/gitea/modules/markup"
 	"github.com/capitalrx/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/modules/web"
-	context_service "code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/contexttest"
+	api "github.com/capitalrx/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/test"
+	"github.com/capitalrx/gitea/modules/web"
+	context_service "github.com/capitalrx/gitea/services/context"
+	"github.com/capitalrx/gitea/services/contexttest"
 
 	"github.com/stretchr/testify/assert"
 )

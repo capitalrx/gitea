@@ -8,12 +8,12 @@ import (
 	"strings"
 	"sync"
 
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/options"
+	"github.com/capitalrx/gitea/modules/json"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/options"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/svg"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/svg"
+	"github.com/capitalrx/gitea/modules/util"
 )
 
 type materialIconRulesData struct {

@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/modules/htmlutil"
-	"code.gitea.io/gitea/modules/markup/internal"
+	"github.com/capitalrx/gitea/modules/htmlutil"
+	"github.com/capitalrx/gitea/modules/markup/internal"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"github.com/yuin/goldmark/ast"
 	"golang.org/x/sync/errgroup"

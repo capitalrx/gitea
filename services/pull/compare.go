@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"time"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/gitrepo"
-	"code.gitea.io/gitea/modules/graceful"
-	logger "code.gitea.io/gitea/modules/log"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	"github.com/capitalrx/gitea/modules/git"
+	"github.com/capitalrx/gitea/modules/gitrepo"
+	"github.com/capitalrx/gitea/modules/graceful"
+	logger "github.com/capitalrx/gitea/modules/log"
 )
 
 // CompareInfo represents needed information for comparing references.

@@ -6,12 +6,12 @@ package setting
 import (
 	"net/http"
 
-	git_model "code.gitea.io/gitea/models/git"
-	"code.gitea.io/gitea/modules/log"
+	git_model "github.com/capitalrx/gitea/models/git"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/routers/web/repo"
-	"code.gitea.io/gitea/services/context"
-	repo_service "code.gitea.io/gitea/services/repository"
+	"github.com/capitalrx/gitea/routers/web/repo"
+	"github.com/capitalrx/gitea/services/context"
+	repo_service "github.com/capitalrx/gitea/services/repository"
 )
 
 // SetDefaultBranchPost set default branch

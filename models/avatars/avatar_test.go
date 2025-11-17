@@ -6,8 +6,8 @@ package avatars_test
 import (
 	"testing"
 
-	avatars_model "code.gitea.io/gitea/models/avatars"
-	system_model "code.gitea.io/gitea/models/system"
+	avatars_model "github.com/capitalrx/gitea/models/avatars"
+	system_model "github.com/capitalrx/gitea/models/system"
 	"github.com/capitalrx/gitea/modules/setting"
 	"github.com/capitalrx/gitea/modules/setting/config"
 

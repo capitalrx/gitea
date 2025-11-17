@@ -8,9 +8,9 @@ import (
 	"errors"
 	"time"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/services/repository"
+	"github.com/capitalrx/gitea/services/repository"
 )
 
 func init() {

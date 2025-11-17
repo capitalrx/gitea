@@ -14,8 +14,8 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git/gitcmd"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/git/gitcmd"
+	"github.com/capitalrx/gitea/modules/util"
 )
 
 type GrepResult struct {

@@ -6,9 +6,9 @@ package cmd
 import (
 	"context"
 
-	"code.gitea.io/gitea/modules/graceful"
-	asymkey_service "code.gitea.io/gitea/services/asymkey"
-	repo_service "code.gitea.io/gitea/services/repository"
+	"github.com/capitalrx/gitea/modules/graceful"
+	asymkey_service "github.com/capitalrx/gitea/services/asymkey"
+	repo_service "github.com/capitalrx/gitea/services/repository"
 
 	"github.com/urfave/cli/v3"
 )

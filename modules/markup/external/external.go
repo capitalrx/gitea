@@ -12,8 +12,8 @@ import (
 	"runtime"
 	"strings"
 
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/process"
+	"github.com/capitalrx/gitea/modules/markup"
+	"github.com/capitalrx/gitea/modules/process"
 	"github.com/capitalrx/gitea/modules/setting"
 
 	"github.com/kballard/go-shellquote"

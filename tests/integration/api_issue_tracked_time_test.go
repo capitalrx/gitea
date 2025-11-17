@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	auth_model "code.gitea.io/gitea/models/auth"
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/tests"
+	auth_model "github.com/capitalrx/gitea/models/auth"
+	issues_model "github.com/capitalrx/gitea/models/issues"
+	"github.com/capitalrx/gitea/models/unittest"
+	user_model "github.com/capitalrx/gitea/models/user"
+	api "github.com/capitalrx/gitea/modules/structs"
+	"github.com/capitalrx/gitea/tests"
 
 	"github.com/stretchr/testify/assert"
 )

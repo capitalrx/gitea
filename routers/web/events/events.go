@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"time"
 
-	"code.gitea.io/gitea/modules/eventsource"
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/routers/web/auth"
-	"code.gitea.io/gitea/services/context"
+	"github.com/capitalrx/gitea/modules/eventsource"
+	"github.com/capitalrx/gitea/modules/graceful"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/routers/web/auth"
+	"github.com/capitalrx/gitea/services/context"
 )
 
 // Events listens for events

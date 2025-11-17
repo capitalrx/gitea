@@ -11,10 +11,10 @@ import (
 	"net/url"
 	"strings"
 
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/private"
+	"github.com/capitalrx/gitea/modules/httplib"
+	"github.com/capitalrx/gitea/modules/private"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"github.com/charmbracelet/git-lfs-transfer/transfer"
 )

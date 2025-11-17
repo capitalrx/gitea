@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"net/http"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	user_model "code.gitea.io/gitea/models/user"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/routers/api/v1/utils"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
+	issues_model "github.com/capitalrx/gitea/models/issues"
+	user_model "github.com/capitalrx/gitea/models/user"
+	api "github.com/capitalrx/gitea/modules/structs"
+	"github.com/capitalrx/gitea/routers/api/v1/utils"
+	"github.com/capitalrx/gitea/services/context"
+	"github.com/capitalrx/gitea/services/convert"
 )
 
 // AddIssueSubscription Subscribe user to issue

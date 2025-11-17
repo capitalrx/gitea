@@ -6,8 +6,8 @@ package repo
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/models/unit"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

@@ -6,9 +6,9 @@ package doctor
 import (
 	"testing"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/log"
+	actions_model "github.com/capitalrx/gitea/models/actions"
+	"github.com/capitalrx/gitea/models/unittest"
+	"github.com/capitalrx/gitea/modules/log"
 
 	"github.com/stretchr/testify/assert"
 )

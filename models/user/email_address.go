@@ -11,13 +11,13 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/optional"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/modules/base"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/optional"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/validation"
+	"github.com/capitalrx/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/validation"
 
 	"xorm.io/builder"
 )

@@ -8,9 +8,9 @@ import (
 	"os"
 	"unicode"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"github.com/blevesearch/bleve/v2"
 	unicode_tokenizer "github.com/blevesearch/bleve/v2/analysis/tokenizer/unicode"

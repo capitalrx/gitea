@@ -9,13 +9,13 @@ import (
 	"fmt"
 	"html/template"
 
-	"code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/models/perm/access"
-	"code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/htmlutil"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/util"
-	gitea_context "code.gitea.io/gitea/services/context"
+	"github.com/capitalrx/gitea/models/issues"
+	"github.com/capitalrx/gitea/models/perm/access"
+	"github.com/capitalrx/gitea/models/repo"
+	"github.com/capitalrx/gitea/modules/htmlutil"
+	"github.com/capitalrx/gitea/modules/markup"
+	"github.com/capitalrx/gitea/modules/util"
+	gitea_context "github.com/capitalrx/gitea/services/context"
 )
 
 func renderRepoIssueIconTitle(ctx context.Context, opts markup.RenderIssueIconTitleOptions) (_ template.HTML, err error) {

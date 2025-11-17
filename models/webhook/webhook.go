@@ -9,15 +9,15 @@ import (
 	"fmt"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/secret"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/modules/json"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/optional"
+	"github.com/capitalrx/gitea/modules/secret"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
-	"code.gitea.io/gitea/modules/util"
-	webhook_module "code.gitea.io/gitea/modules/webhook"
+	"github.com/capitalrx/gitea/modules/timeutil"
+	"github.com/capitalrx/gitea/modules/util"
+	webhook_module "github.com/capitalrx/gitea/modules/webhook"
 
 	"xorm.io/builder"
 )

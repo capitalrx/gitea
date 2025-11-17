@@ -8,13 +8,13 @@ import (
 	"errors"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/migrations"
-	system_model "code.gitea.io/gitea/models/system"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/models/migrations"
+	system_model "github.com/capitalrx/gitea/models/system"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
 	"github.com/capitalrx/gitea/modules/setting/config"
-	"code.gitea.io/gitea/services/versioned_migration"
+	"github.com/capitalrx/gitea/services/versioned_migration"
 
 	"xorm.io/xorm"
 )

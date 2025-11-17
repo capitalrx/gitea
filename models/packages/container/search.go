@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/packages"
-	user_model "code.gitea.io/gitea/models/user"
-	container_module "code.gitea.io/gitea/modules/packages/container"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/models/packages"
+	user_model "github.com/capitalrx/gitea/models/user"
+	container_module "github.com/capitalrx/gitea/modules/packages/container"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"xorm.io/builder"
 )

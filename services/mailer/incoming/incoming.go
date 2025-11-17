@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/process"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/process"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/services/mailer/token"
+	"github.com/capitalrx/gitea/services/mailer/token"
 
 	"github.com/dimiro1/reply"
 	"github.com/emersion/go-imap"

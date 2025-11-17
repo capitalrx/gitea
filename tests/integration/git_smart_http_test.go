@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/test"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

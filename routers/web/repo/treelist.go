@@ -9,13 +9,13 @@ import (
 	"path"
 	"strings"
 
-	pull_model "code.gitea.io/gitea/models/pull"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/fileicon"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/gitdiff"
-	files_service "code.gitea.io/gitea/services/repository/files"
+	pull_model "github.com/capitalrx/gitea/models/pull"
+	"github.com/capitalrx/gitea/modules/base"
+	"github.com/capitalrx/gitea/modules/fileicon"
+	"github.com/capitalrx/gitea/modules/git"
+	"github.com/capitalrx/gitea/services/context"
+	"github.com/capitalrx/gitea/services/gitdiff"
+	files_service "github.com/capitalrx/gitea/services/repository/files"
 
 	"github.com/go-enry/go-enry/v2"
 )

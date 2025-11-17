@@ -6,10 +6,10 @@ package integration
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/unittest"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/models/unittest"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/test"
+	"github.com/capitalrx/gitea/modules/test"
 
 	"github.com/stretchr/testify/assert"
 )

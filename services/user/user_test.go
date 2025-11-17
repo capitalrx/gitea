@@ -9,15 +9,15 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/organization"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
+	"github.com/capitalrx/gitea/models/auth"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/models/organization"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	"github.com/capitalrx/gitea/models/unittest"
+	user_model "github.com/capitalrx/gitea/models/user"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
-	org_service "code.gitea.io/gitea/services/org"
+	"github.com/capitalrx/gitea/modules/timeutil"
+	org_service "github.com/capitalrx/gitea/services/org"
 
 	"github.com/stretchr/testify/assert"
 )

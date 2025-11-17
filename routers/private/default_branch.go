@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"net/http"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/gitrepo"
-	"code.gitea.io/gitea/modules/private"
-	gitea_context "code.gitea.io/gitea/services/context"
-	repo_service "code.gitea.io/gitea/services/repository"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	"github.com/capitalrx/gitea/modules/gitrepo"
+	"github.com/capitalrx/gitea/modules/private"
+	gitea_context "github.com/capitalrx/gitea/services/context"
+	repo_service "github.com/capitalrx/gitea/services/repository"
 )
 
 // SetDefaultBranch updates the default branch

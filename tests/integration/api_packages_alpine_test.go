@@ -14,12 +14,12 @@ import (
 	"net/http"
 	"testing"
 
-	"code.gitea.io/gitea/models/packages"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	alpine_module "code.gitea.io/gitea/modules/packages/alpine"
-	alpine_service "code.gitea.io/gitea/services/packages/alpine"
-	"code.gitea.io/gitea/tests"
+	"github.com/capitalrx/gitea/models/packages"
+	"github.com/capitalrx/gitea/models/unittest"
+	user_model "github.com/capitalrx/gitea/models/user"
+	alpine_module "github.com/capitalrx/gitea/modules/packages/alpine"
+	alpine_service "github.com/capitalrx/gitea/services/packages/alpine"
+	"github.com/capitalrx/gitea/tests"
 
 	"github.com/stretchr/testify/assert"
 )

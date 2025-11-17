@@ -7,16 +7,16 @@ import (
 	"errors"
 	"net/http"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/log"
+	actions_model "github.com/capitalrx/gitea/models/actions"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/modules/web"
-	shared_user "code.gitea.io/gitea/routers/web/shared/user"
-	actions_service "code.gitea.io/gitea/services/actions"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/forms"
+	"github.com/capitalrx/gitea/modules/templates"
+	"github.com/capitalrx/gitea/modules/web"
+	shared_user "github.com/capitalrx/gitea/routers/web/shared/user"
+	actions_service "github.com/capitalrx/gitea/services/actions"
+	"github.com/capitalrx/gitea/services/context"
+	"github.com/capitalrx/gitea/services/forms"
 )
 
 const (

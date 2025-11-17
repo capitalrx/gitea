@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/markup/common"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/markup/common"
 	"github.com/capitalrx/gitea/modules/setting"
 
 	"github.com/yuin/goldmark"

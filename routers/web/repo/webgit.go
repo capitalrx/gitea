@@ -4,12 +4,12 @@
 package repo
 
 import (
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/context"
-	files_service "code.gitea.io/gitea/services/repository/files"
+	"github.com/capitalrx/gitea/modules/util"
+	"github.com/capitalrx/gitea/services/context"
+	files_service "github.com/capitalrx/gitea/services/repository/files"
 )
 
 func WebGitOperationCommonData(ctx *context.Context) {

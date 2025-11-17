@@ -7,10 +7,10 @@ import (
 	"context"
 	"strconv"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/renderhelper"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/markup/markdown"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/models/renderhelper"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/markup/markdown"
 
 	"xorm.io/builder"
 )

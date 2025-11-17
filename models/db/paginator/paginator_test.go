@@ -6,7 +6,7 @@ package paginator
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/db"
+	"github.com/capitalrx/gitea/models/db"
 	"github.com/capitalrx/gitea/modules/setting"
 
 	"github.com/stretchr/testify/assert"

@@ -9,10 +9,10 @@ import (
 	"testing"
 
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/routers"
-	"code.gitea.io/gitea/routers/web"
-	"code.gitea.io/gitea/tests"
+	"github.com/capitalrx/gitea/modules/test"
+	"github.com/capitalrx/gitea/routers"
+	"github.com/capitalrx/gitea/routers/web"
+	"github.com/capitalrx/gitea/tests"
 
 	"github.com/stretchr/testify/assert"
 )

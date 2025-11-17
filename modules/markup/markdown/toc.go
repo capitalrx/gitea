@@ -6,7 +6,7 @@ package markdown
 import (
 	"net/url"
 
-	"code.gitea.io/gitea/modules/translation"
+	"github.com/capitalrx/gitea/modules/translation"
 
 	"github.com/yuin/goldmark/ast"
 )

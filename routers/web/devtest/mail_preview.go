@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strings"
 
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/mailer"
+	"github.com/capitalrx/gitea/modules/templates"
+	"github.com/capitalrx/gitea/services/context"
+	"github.com/capitalrx/gitea/services/mailer"
 
 	"gopkg.in/yaml.v3"
 )

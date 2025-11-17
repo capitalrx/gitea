@@ -6,16 +6,16 @@ package doctor
 import (
 	"context"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	activities_model "code.gitea.io/gitea/models/activities"
-	"code.gitea.io/gitea/models/db"
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/models/migrations"
-	repo_model "code.gitea.io/gitea/models/repo"
-	secret_model "code.gitea.io/gitea/models/secret"
-	"code.gitea.io/gitea/modules/log"
+	actions_model "github.com/capitalrx/gitea/models/actions"
+	activities_model "github.com/capitalrx/gitea/models/activities"
+	"github.com/capitalrx/gitea/models/db"
+	issues_model "github.com/capitalrx/gitea/models/issues"
+	"github.com/capitalrx/gitea/models/migrations"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	secret_model "github.com/capitalrx/gitea/models/secret"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	issue_service "code.gitea.io/gitea/services/issue"
+	issue_service "github.com/capitalrx/gitea/services/issue"
 )
 
 type consistencyCheck struct {

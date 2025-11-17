@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/proxyprotocol"
+	"github.com/capitalrx/gitea/modules/httplib"
+	"github.com/capitalrx/gitea/modules/json"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/proxyprotocol"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

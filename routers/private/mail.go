@@ -9,15 +9,15 @@ import (
 	"net/http"
 	"strconv"
 
-	"code.gitea.io/gitea/models/db"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/private"
+	"github.com/capitalrx/gitea/models/db"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/json"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/private"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/mailer"
-	sender_service "code.gitea.io/gitea/services/mailer/sender"
+	"github.com/capitalrx/gitea/services/context"
+	"github.com/capitalrx/gitea/services/mailer"
+	sender_service "github.com/capitalrx/gitea/services/mailer/sender"
 )
 
 // SendEmail pushes messages to mail queue

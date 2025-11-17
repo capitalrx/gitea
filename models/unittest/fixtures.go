@@ -6,10 +6,10 @@ package unittest
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/auth/password/hash"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/modules/auth/password/hash"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"xorm.io/xorm"
 	"xorm.io/xorm/schemas"

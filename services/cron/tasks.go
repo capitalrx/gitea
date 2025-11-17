@@ -11,14 +11,14 @@ import (
 	"sync"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	system_model "code.gitea.io/gitea/models/system"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/process"
+	"github.com/capitalrx/gitea/models/db"
+	system_model "github.com/capitalrx/gitea/models/system"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/graceful"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/process"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/translation"
+	"github.com/capitalrx/gitea/modules/translation"
 )
 
 var (

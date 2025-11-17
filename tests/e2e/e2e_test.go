@@ -17,15 +17,15 @@ import (
 	"path/filepath"
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/models/unittest"
+	"github.com/capitalrx/gitea/modules/graceful"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/testlogger"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/routers"
-	"code.gitea.io/gitea/tests"
+	"github.com/capitalrx/gitea/modules/testlogger"
+	"github.com/capitalrx/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/web"
+	"github.com/capitalrx/gitea/routers"
+	"github.com/capitalrx/gitea/tests"
 )
 
 var testE2eWebRoutes *web.Router

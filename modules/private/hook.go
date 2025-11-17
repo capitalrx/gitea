@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"net/url"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/repository"
+	"github.com/capitalrx/gitea/modules/git"
+	"github.com/capitalrx/gitea/modules/httplib"
+	"github.com/capitalrx/gitea/modules/repository"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

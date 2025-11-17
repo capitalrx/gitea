@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/modules/json"
+	"github.com/capitalrx/gitea/modules/json"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/test"
+	"github.com/capitalrx/gitea/modules/test"
 
 	"github.com/stretchr/testify/assert"
 )

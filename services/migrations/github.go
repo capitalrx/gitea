@@ -14,11 +14,11 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
-	base "code.gitea.io/gitea/modules/migration"
-	"code.gitea.io/gitea/modules/proxy"
-	"code.gitea.io/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/git"
+	"github.com/capitalrx/gitea/modules/log"
+	base "github.com/capitalrx/gitea/modules/migration"
+	"github.com/capitalrx/gitea/modules/proxy"
+	"github.com/capitalrx/gitea/modules/structs"
 
 	"github.com/google/go-github/v74/github"
 	"golang.org/x/oauth2"

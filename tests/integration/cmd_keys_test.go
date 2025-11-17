@@ -8,10 +8,10 @@ import (
 	"net/url"
 	"testing"
 
-	"code.gitea.io/gitea/cmd"
+	"github.com/capitalrx/gitea/cmd"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/test"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/urfave/cli/v3"

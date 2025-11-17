@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/translation"
+	"github.com/capitalrx/gitea/modules/translation"
 
 	"github.com/stretchr/testify/assert"
 )

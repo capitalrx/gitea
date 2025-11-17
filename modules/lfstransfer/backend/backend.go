@@ -12,8 +12,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/lfs"
+	"github.com/capitalrx/gitea/modules/json"
+	"github.com/capitalrx/gitea/modules/lfs"
 	"github.com/capitalrx/gitea/modules/setting"
 
 	"github.com/charmbracelet/git-lfs-transfer/transfer"

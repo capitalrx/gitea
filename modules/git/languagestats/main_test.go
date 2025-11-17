@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"code.gitea.io/gitea/modules/git"
+	"github.com/capitalrx/gitea/modules/git"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/util"
 )
 
 func testRun(m *testing.M) error {

@@ -7,8 +7,8 @@ import (
 	"crypto/tls"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/hostmatcher"
-	"code.gitea.io/gitea/modules/proxy"
+	"github.com/capitalrx/gitea/modules/hostmatcher"
+	"github.com/capitalrx/gitea/modules/proxy"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

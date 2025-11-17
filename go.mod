@@ -1,4 +1,4 @@
-module code.gitea.io/gitea
+module github.com/capitalrx/gitea
 
 go 1.25.3
 

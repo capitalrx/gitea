@@ -4,9 +4,9 @@
 package utils
 
 import (
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/services/context"
+	"github.com/capitalrx/gitea/services/convert"
 )
 
 // GetListOptions returns list options using the page and limit parameters

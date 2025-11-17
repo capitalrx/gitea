@@ -10,12 +10,12 @@ import (
 	"runtime"
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/git"
+	"github.com/capitalrx/gitea/models/unittest"
+	"github.com/capitalrx/gitea/modules/git"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/tempdir"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/modules/testlogger"
+	"github.com/capitalrx/gitea/modules/tempdir"
+	"github.com/capitalrx/gitea/modules/test"
+	"github.com/capitalrx/gitea/modules/testlogger"
 
 	"github.com/stretchr/testify/require"
 	"xorm.io/xorm"

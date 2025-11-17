@@ -8,17 +8,17 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/models/webhook"
-	"code.gitea.io/gitea/modules/json"
+	"github.com/capitalrx/gitea/models/db"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/models/webhook"
+	"github.com/capitalrx/gitea/modules/json"
 	"github.com/capitalrx/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/validation"
-	webhook_module "code.gitea.io/gitea/modules/webhook"
-	"code.gitea.io/gitea/services/context"
-	webhook_service "code.gitea.io/gitea/services/webhook"
+	api "github.com/capitalrx/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/validation"
+	webhook_module "github.com/capitalrx/gitea/modules/webhook"
+	"github.com/capitalrx/gitea/services/context"
+	webhook_service "github.com/capitalrx/gitea/services/webhook"
 )
 
 // ListOwnerHooks lists the webhooks of the provided owner

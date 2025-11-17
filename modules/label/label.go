@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/util"
 )
 
 // Label represents label information loaded from template

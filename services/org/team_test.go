@@ -8,14 +8,14 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/models/organization"
-	"code.gitea.io/gitea/models/perm"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/structs"
-	repo_service "code.gitea.io/gitea/services/repository"
+	"github.com/capitalrx/gitea/models/organization"
+	"github.com/capitalrx/gitea/models/perm"
+	access_model "github.com/capitalrx/gitea/models/perm/access"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	"github.com/capitalrx/gitea/models/unittest"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/structs"
+	repo_service "github.com/capitalrx/gitea/services/repository"
 
 	"github.com/stretchr/testify/assert"
 )

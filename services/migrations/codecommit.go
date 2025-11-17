@@ -10,11 +10,11 @@ import (
 	"strconv"
 	"strings"
 
-	git_module "code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
-	base "code.gitea.io/gitea/modules/migration"
-	"code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/util"
+	git_module "github.com/capitalrx/gitea/modules/git"
+	"github.com/capitalrx/gitea/modules/log"
+	base "github.com/capitalrx/gitea/modules/migration"
+	"github.com/capitalrx/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"github.com/aws/aws-sdk-go-v2/credentials"
 	"github.com/aws/aws-sdk-go-v2/service/codecommit"

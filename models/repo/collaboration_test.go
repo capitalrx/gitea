@@ -6,11 +6,11 @@ package repo_test
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/perm"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/models/perm"
+	access_model "github.com/capitalrx/gitea/models/perm/access"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	"github.com/capitalrx/gitea/models/unittest"
 
 	"github.com/stretchr/testify/assert"
 )

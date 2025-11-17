@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"code.gitea.io/gitea/modules/glob"
+	"github.com/capitalrx/gitea/modules/glob"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	auth_model "code.gitea.io/gitea/models/auth"
+	auth_model "github.com/capitalrx/gitea/models/auth"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/timeutil"
+	"github.com/capitalrx/gitea/modules/util"
 )
 
 // Based on https://paragonie.com/blog/2015/04/secure-authentication-php-with-long-term-persistence#secure-remember-me-cookies

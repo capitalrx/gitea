@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/web/middleware"
+	"github.com/capitalrx/gitea/modules/web/middleware"
 )
 
 const CookieNameFlash = "gitea_flash"

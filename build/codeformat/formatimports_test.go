@@ -58,7 +58,7 @@ import (
 	"code.gitea.io/other/package"
 
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/util"
 
   "xorm.io/the/package"
 
@@ -82,7 +82,7 @@ import (
 	_ "image/png"  // for processing png images
 
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"code.gitea.io/other/package"
 	"github.com/issue9/identicon"

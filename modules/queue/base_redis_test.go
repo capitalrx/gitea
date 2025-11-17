@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/modules/nosql"
+	"github.com/capitalrx/gitea/modules/nosql"
 	"github.com/capitalrx/gitea/modules/setting"
 
 	"github.com/stretchr/testify/assert"

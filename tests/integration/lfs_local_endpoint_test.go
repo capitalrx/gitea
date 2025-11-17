@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"code.gitea.io/gitea/modules/lfs"
-	"code.gitea.io/gitea/tests"
+	"github.com/capitalrx/gitea/modules/lfs"
+	"github.com/capitalrx/gitea/tests"
 
 	"github.com/stretchr/testify/assert"
 )

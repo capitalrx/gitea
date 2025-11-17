@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/capitalrx/gitea/modules/timeutil"
 )
 
 func ParseDeadlineDateToEndOfDay(date string) (timeutil.TimeStamp, error) {

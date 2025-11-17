@@ -6,9 +6,9 @@ package v1_11
 import (
 	"path/filepath"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"xorm.io/builder"
 	"xorm.io/xorm"

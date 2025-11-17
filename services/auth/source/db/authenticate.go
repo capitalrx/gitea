@@ -7,9 +7,9 @@ import (
 	"context"
 	"fmt"
 
-	user_model "code.gitea.io/gitea/models/user"
+	user_model "github.com/capitalrx/gitea/models/user"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/util"
 )
 
 // ErrUserPasswordNotSet represents a "ErrUserPasswordNotSet" kind of error.

@@ -8,16 +8,16 @@ import (
 	"net/http"
 	"strings"
 
-	"code.gitea.io/gitea/models/organization"
-	"code.gitea.io/gitea/models/perm"
-	repo_model "code.gitea.io/gitea/models/repo"
-	unit_model "code.gitea.io/gitea/models/unit"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/models/organization"
+	"github.com/capitalrx/gitea/models/perm"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	unit_model "github.com/capitalrx/gitea/models/unit"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/mailer"
-	repo_service "code.gitea.io/gitea/services/repository"
+	"github.com/capitalrx/gitea/services/context"
+	"github.com/capitalrx/gitea/services/mailer"
+	repo_service "github.com/capitalrx/gitea/services/repository"
 )
 
 // Collaboration render a repository's collaboration page

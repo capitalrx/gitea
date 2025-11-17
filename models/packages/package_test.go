@@ -6,13 +6,13 @@ package packages_test
 import (
 	"testing"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
+	packages_model "github.com/capitalrx/gitea/models/packages"
+	"github.com/capitalrx/gitea/models/unittest"
+	user_model "github.com/capitalrx/gitea/models/user"
 
-	_ "code.gitea.io/gitea/models"
-	_ "code.gitea.io/gitea/models/actions"
-	_ "code.gitea.io/gitea/models/activities"
+	_ "github.com/capitalrx/gitea/models"
+	_ "github.com/capitalrx/gitea/models/actions"
+	_ "github.com/capitalrx/gitea/models/activities"
 
 	"github.com/stretchr/testify/assert"
 )

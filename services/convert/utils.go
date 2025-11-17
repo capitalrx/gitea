@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/structs"
 )
 
 // ToCorrectPageSize makes sure page size is in allowed range.

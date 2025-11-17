@@ -7,19 +7,19 @@ package repo
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/perm"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	"code.gitea.io/gitea/models/webhook"
-	"code.gitea.io/gitea/modules/git"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/models/perm"
+	access_model "github.com/capitalrx/gitea/models/perm/access"
+	"github.com/capitalrx/gitea/models/webhook"
+	"github.com/capitalrx/gitea/modules/git"
 	"github.com/capitalrx/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web"
-	webhook_module "code.gitea.io/gitea/modules/webhook"
-	"code.gitea.io/gitea/routers/api/v1/utils"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
-	webhook_service "code.gitea.io/gitea/services/webhook"
+	api "github.com/capitalrx/gitea/modules/structs"
+	"github.com/capitalrx/gitea/modules/web"
+	webhook_module "github.com/capitalrx/gitea/modules/webhook"
+	"github.com/capitalrx/gitea/routers/api/v1/utils"
+	"github.com/capitalrx/gitea/services/context"
+	"github.com/capitalrx/gitea/services/convert"
+	webhook_service "github.com/capitalrx/gitea/services/webhook"
 )
 
 // ListHooks list all hooks of a repository

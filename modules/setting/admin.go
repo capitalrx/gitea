@@ -4,7 +4,7 @@
 package setting
 
 import (
-	"code.gitea.io/gitea/modules/container"
+	"github.com/capitalrx/gitea/modules/container"
 )
 
 // Admin settings

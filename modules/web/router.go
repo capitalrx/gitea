@@ -9,10 +9,10 @@ import (
 	"reflect"
 	"strings"
 
-	"code.gitea.io/gitea/modules/htmlutil"
-	"code.gitea.io/gitea/modules/reqctx"
+	"github.com/capitalrx/gitea/modules/htmlutil"
+	"github.com/capitalrx/gitea/modules/reqctx"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/web/middleware"
+	"github.com/capitalrx/gitea/modules/web/middleware"
 
 	"gitea.com/go-chi/binding"
 	"github.com/go-chi/chi/v5"

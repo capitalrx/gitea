@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"io"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/typesniffer"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/forms"
-	repo_service "code.gitea.io/gitea/services/repository"
+	"github.com/capitalrx/gitea/modules/typesniffer"
+	"github.com/capitalrx/gitea/modules/web"
+	"github.com/capitalrx/gitea/services/context"
+	"github.com/capitalrx/gitea/services/forms"
+	repo_service "github.com/capitalrx/gitea/services/repository"
 )
 
 // UpdateAvatarSetting update repo's avatar

@@ -4,8 +4,8 @@
 package user
 
 import (
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/services/context"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/services/context"
 )
 
 // GetUserByPathParam get user by the path param name

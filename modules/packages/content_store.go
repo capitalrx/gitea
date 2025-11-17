@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/storage"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/storage"
+	"github.com/capitalrx/gitea/modules/util"
 )
 
 // BlobHash256Key is the key to address a blob content

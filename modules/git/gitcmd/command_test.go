@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/tempdir"
+	"github.com/capitalrx/gitea/modules/tempdir"
 
 	"github.com/stretchr/testify/assert"
 )

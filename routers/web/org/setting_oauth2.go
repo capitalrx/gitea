@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"net/http"
 
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/models/db"
+	"github.com/capitalrx/gitea/models/auth"
+	"github.com/capitalrx/gitea/models/db"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	shared_user "code.gitea.io/gitea/routers/web/shared/user"
-	user_setting "code.gitea.io/gitea/routers/web/user/setting"
-	"code.gitea.io/gitea/services/context"
+	"github.com/capitalrx/gitea/modules/templates"
+	shared_user "github.com/capitalrx/gitea/routers/web/shared/user"
+	user_setting "github.com/capitalrx/gitea/routers/web/user/setting"
+	"github.com/capitalrx/gitea/services/context"
 )
 
 const (

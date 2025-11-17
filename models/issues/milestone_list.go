@@ -7,8 +7,8 @@ import (
 	"context"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/optional"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/modules/optional"
 
 	"xorm.io/builder"
 )

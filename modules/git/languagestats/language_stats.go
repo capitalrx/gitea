@@ -8,8 +8,8 @@ import (
 	"strings"
 	"unicode"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/git/attribute"
+	"github.com/capitalrx/gitea/modules/git"
+	"github.com/capitalrx/gitea/modules/git/attribute"
 )
 
 const (

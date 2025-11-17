@@ -7,7 +7,7 @@
 package git
 
 import (
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/log"
 
 	"github.com/go-git/go-git/v5/plumbing"
 )

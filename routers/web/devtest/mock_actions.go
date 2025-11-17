@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/routers/web/repo/actions"
-	"code.gitea.io/gitea/services/context"
+	actions_model "github.com/capitalrx/gitea/models/actions"
+	"github.com/capitalrx/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/web"
+	"github.com/capitalrx/gitea/routers/web/repo/actions"
+	"github.com/capitalrx/gitea/services/context"
 )
 
 type generateMockStepsLogOptions struct {

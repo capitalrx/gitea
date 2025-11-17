@@ -7,7 +7,7 @@ import (
 	"encoding/hex"
 	"strings"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/log"
 
 	"golang.org/x/crypto/scrypt"
 )

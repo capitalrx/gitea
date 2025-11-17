@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/models/packages"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	helm_module "code.gitea.io/gitea/modules/packages/helm"
+	"github.com/capitalrx/gitea/models/packages"
+	"github.com/capitalrx/gitea/models/unittest"
+	user_model "github.com/capitalrx/gitea/models/user"
+	helm_module "github.com/capitalrx/gitea/modules/packages/helm"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/tests"
+	"github.com/capitalrx/gitea/tests"
 
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v3"

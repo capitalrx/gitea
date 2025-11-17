@@ -4,12 +4,12 @@
 package repo
 
 import (
-	git_model "code.gitea.io/gitea/models/git"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	unit_model "code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/services/context"
-	repo_service "code.gitea.io/gitea/services/repository"
+	git_model "github.com/capitalrx/gitea/models/git"
+	access_model "github.com/capitalrx/gitea/models/perm/access"
+	unit_model "github.com/capitalrx/gitea/models/unit"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/services/context"
+	repo_service "github.com/capitalrx/gitea/services/repository"
 )
 
 type RecentBranchesPromptDataStruct struct {

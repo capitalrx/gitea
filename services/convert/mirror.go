@@ -6,8 +6,8 @@ package convert
 import (
 	"context"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	api "code.gitea.io/gitea/modules/structs"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	api "github.com/capitalrx/gitea/modules/structs"
 )
 
 // ToPushMirror convert from repo_model.PushMirror and remoteAddress to api.TopicResponse

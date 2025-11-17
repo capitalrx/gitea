@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/json"
+	"github.com/capitalrx/gitea/modules/log"
 )
 
 // QueueSettings represent the settings for a queue from the ini

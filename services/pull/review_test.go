@@ -6,10 +6,10 @@ package pull_test
 import (
 	"testing"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	pull_service "code.gitea.io/gitea/services/pull"
+	issues_model "github.com/capitalrx/gitea/models/issues"
+	"github.com/capitalrx/gitea/models/unittest"
+	user_model "github.com/capitalrx/gitea/models/user"
+	pull_service "github.com/capitalrx/gitea/services/pull"
 
 	"github.com/stretchr/testify/assert"
 )

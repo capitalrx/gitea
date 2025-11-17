@@ -6,8 +6,8 @@ package db
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/auth"
-	user_model "code.gitea.io/gitea/models/user"
+	"github.com/capitalrx/gitea/models/auth"
+	user_model "github.com/capitalrx/gitea/models/user"
 )
 
 // Source is a password authentication service

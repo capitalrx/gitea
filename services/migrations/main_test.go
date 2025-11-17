@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/models/unittest"
-	base "code.gitea.io/gitea/modules/migration"
+	"github.com/capitalrx/gitea/models/unittest"
+	base "github.com/capitalrx/gitea/modules/migration"
 
 	"github.com/stretchr/testify/assert"
 )

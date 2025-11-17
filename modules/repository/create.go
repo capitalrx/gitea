@@ -9,8 +9,8 @@ import (
 	"os"
 	"path/filepath"
 
-	git_model "code.gitea.io/gitea/models/git"
-	repo_model "code.gitea.io/gitea/models/repo"
+	git_model "github.com/capitalrx/gitea/models/git"
+	repo_model "github.com/capitalrx/gitea/models/repo"
 )
 
 const notRegularFileMode = os.ModeSymlink | os.ModeNamedPipe | os.ModeSocket | os.ModeDevice | os.ModeCharDevice | os.ModeIrregular

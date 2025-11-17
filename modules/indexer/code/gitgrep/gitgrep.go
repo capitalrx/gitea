@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/indexer"
-	code_indexer "code.gitea.io/gitea/modules/indexer/code"
+	"github.com/capitalrx/gitea/modules/git"
+	"github.com/capitalrx/gitea/modules/indexer"
+	code_indexer "github.com/capitalrx/gitea/modules/indexer/code"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

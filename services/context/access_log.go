@@ -11,10 +11,10 @@ import (
 	"text/template"
 	"time"
 
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
+	user_model "github.com/capitalrx/gitea/models/user"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/web/middleware"
+	"github.com/capitalrx/gitea/modules/web/middleware"
 )
 
 type accessLoggerTmplData struct {

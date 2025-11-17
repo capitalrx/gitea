@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/typesniffer"
+	"github.com/capitalrx/gitea/modules/typesniffer"
 )
 
 // Renderer defines an interface for rendering markup file to HTML

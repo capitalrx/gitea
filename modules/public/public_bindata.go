@@ -12,7 +12,7 @@ import (
 
 	_ "embed"
 
-	"code.gitea.io/gitea/modules/assetfs"
+	"github.com/capitalrx/gitea/modules/assetfs"
 )
 
 //go:embed bindata.dat

@@ -10,9 +10,9 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"code.gitea.io/gitea/models/perm"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/models/perm"
+	"github.com/capitalrx/gitea/modules/container"
+	"github.com/capitalrx/gitea/modules/log"
 	"github.com/capitalrx/gitea/modules/setting"
 )
 

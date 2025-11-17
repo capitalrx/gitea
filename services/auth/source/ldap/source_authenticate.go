@@ -7,15 +7,15 @@ import (
 	"context"
 	"strings"
 
-	asymkey_model "code.gitea.io/gitea/models/asymkey"
-	"code.gitea.io/gitea/models/auth"
-	user_model "code.gitea.io/gitea/models/user"
-	auth_module "code.gitea.io/gitea/modules/auth"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/optional"
-	asymkey_service "code.gitea.io/gitea/services/asymkey"
-	source_service "code.gitea.io/gitea/services/auth/source"
-	user_service "code.gitea.io/gitea/services/user"
+	asymkey_model "github.com/capitalrx/gitea/models/asymkey"
+	"github.com/capitalrx/gitea/models/auth"
+	user_model "github.com/capitalrx/gitea/models/user"
+	auth_module "github.com/capitalrx/gitea/modules/auth"
+	"github.com/capitalrx/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/optional"
+	asymkey_service "github.com/capitalrx/gitea/services/asymkey"
+	source_service "github.com/capitalrx/gitea/services/auth/source"
+	user_service "github.com/capitalrx/gitea/services/user"
 )
 
 // Authenticate queries if login/password is valid against the LDAP directory pool,

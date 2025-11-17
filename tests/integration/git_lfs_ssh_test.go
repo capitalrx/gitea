@@ -12,12 +12,12 @@ import (
 	"sync"
 	"testing"
 
-	auth_model "code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/modules/git/gitcmd"
+	auth_model "github.com/capitalrx/gitea/models/auth"
+	"github.com/capitalrx/gitea/modules/git/gitcmd"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/routers/common"
-	"code.gitea.io/gitea/services/context"
+	"github.com/capitalrx/gitea/modules/web"
+	"github.com/capitalrx/gitea/routers/common"
+	"github.com/capitalrx/gitea/services/context"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -7,8 +7,8 @@ import (
 	"context"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/capitalrx/gitea/models/db"
+	"github.com/capitalrx/gitea/modules/timeutil"
 )
 
 // ActionTaskStep represents a step of ActionTask

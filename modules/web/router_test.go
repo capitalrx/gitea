@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/test"
+	"github.com/capitalrx/gitea/modules/util"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/stretchr/testify/assert"

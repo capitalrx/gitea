@@ -10,13 +10,13 @@ import (
 	"testing"
 	"time"
 
-	auth_model "code.gitea.io/gitea/models/auth"
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	pull_service "code.gitea.io/gitea/services/pull"
-	repo_service "code.gitea.io/gitea/services/repository"
-	files_service "code.gitea.io/gitea/services/repository/files"
+	auth_model "github.com/capitalrx/gitea/models/auth"
+	issues_model "github.com/capitalrx/gitea/models/issues"
+	"github.com/capitalrx/gitea/models/unittest"
+	user_model "github.com/capitalrx/gitea/models/user"
+	pull_service "github.com/capitalrx/gitea/services/pull"
+	repo_service "github.com/capitalrx/gitea/services/repository"
+	files_service "github.com/capitalrx/gitea/services/repository/files"
 
 	"github.com/stretchr/testify/assert"
 )

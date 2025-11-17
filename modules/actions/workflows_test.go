@@ -6,9 +6,9 @@ package actions
 import (
 	"testing"
 
-	"code.gitea.io/gitea/modules/git"
-	api "code.gitea.io/gitea/modules/structs"
-	webhook_module "code.gitea.io/gitea/modules/webhook"
+	"github.com/capitalrx/gitea/modules/git"
+	api "github.com/capitalrx/gitea/modules/structs"
+	webhook_module "github.com/capitalrx/gitea/modules/webhook"
 
 	"github.com/stretchr/testify/assert"
 )

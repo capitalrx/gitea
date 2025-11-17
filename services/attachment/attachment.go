@@ -11,12 +11,12 @@ import (
 	"io"
 	"net/http"
 
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
+	"github.com/capitalrx/gitea/models/db"
+	repo_model "github.com/capitalrx/gitea/models/repo"
 	"github.com/capitalrx/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/storage"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/context/upload"
+	"github.com/capitalrx/gitea/modules/storage"
+	"github.com/capitalrx/gitea/modules/util"
+	"github.com/capitalrx/gitea/services/context/upload"
 
 	"github.com/google/uuid"
 )

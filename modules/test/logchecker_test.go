@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/capitalrx/gitea/modules/log"
 
 	"github.com/stretchr/testify/assert"
 )

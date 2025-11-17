@@ -9,7 +9,7 @@ import (
 	"io"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git/gitcmd"
+	"github.com/capitalrx/gitea/modules/git/gitcmd"
 )
 
 // ObjectType git object type

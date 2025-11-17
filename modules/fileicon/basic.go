@@ -6,8 +6,8 @@ package fileicon
 import (
 	"html/template"
 
-	"code.gitea.io/gitea/modules/svg"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/svg"
+	"github.com/capitalrx/gitea/modules/util"
 )
 
 func BasicEntryIconName(entry *EntryInfo) string {

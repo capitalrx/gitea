@@ -6,8 +6,8 @@ package integration_test
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/organization"
-	"code.gitea.io/gitea/models/unittest"
+	"github.com/capitalrx/gitea/models/organization"
+	"github.com/capitalrx/gitea/models/unittest"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

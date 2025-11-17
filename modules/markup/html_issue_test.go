@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/modules/htmlutil"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/markup/markdown"
-	testModule "code.gitea.io/gitea/modules/test"
+	"github.com/capitalrx/gitea/modules/htmlutil"
+	"github.com/capitalrx/gitea/modules/markup"
+	"github.com/capitalrx/gitea/modules/markup/markdown"
+	testModule "github.com/capitalrx/gitea/modules/test"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

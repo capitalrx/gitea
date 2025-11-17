@@ -8,8 +8,8 @@ import (
 	"log"
 	"sync"
 
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/capitalrx/gitea/models/auth"
+	"github.com/capitalrx/gitea/modules/timeutil"
 
 	"gitea.com/go-chi/session"
 )

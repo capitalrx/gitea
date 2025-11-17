@@ -7,9 +7,9 @@ import (
 	"slices"
 	"testing"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/cache"
+	repo_model "github.com/capitalrx/gitea/models/repo"
+	"github.com/capitalrx/gitea/models/unittest"
+	"github.com/capitalrx/gitea/modules/cache"
 	"github.com/capitalrx/gitea/modules/setting"
 
 	"github.com/stretchr/testify/assert"

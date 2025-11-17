@@ -9,11 +9,11 @@ import (
 	"io"
 	"time"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/git/gitcmd"
-	giturl "code.gitea.io/gitea/modules/git/url"
-	"code.gitea.io/gitea/modules/globallock"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/capitalrx/gitea/modules/git"
+	"github.com/capitalrx/gitea/modules/git/gitcmd"
+	giturl "github.com/capitalrx/gitea/modules/git/url"
+	"github.com/capitalrx/gitea/modules/globallock"
+	"github.com/capitalrx/gitea/modules/util"
 )
 
 type RemoteOption string
