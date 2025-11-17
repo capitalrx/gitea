@@ -8,7 +8,7 @@ import (
 	"os"
 
 	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 
 	"github.com/urfave/cli/v3"
 )

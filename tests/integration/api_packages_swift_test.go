@@ -17,7 +17,7 @@ import (
 	"code.gitea.io/gitea/models/unittest"
 	user_model "code.gitea.io/gitea/models/user"
 	swift_module "code.gitea.io/gitea/modules/packages/swift"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	swift_router "code.gitea.io/gitea/routers/api/packages/swift"
 	"code.gitea.io/gitea/tests"
 

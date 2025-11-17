@@ -7,7 +7,7 @@ import (
 	"context"
 
 	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	actions_service "code.gitea.io/gitea/services/actions"
 )
 

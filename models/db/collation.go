@@ -10,7 +10,7 @@ import (
 
 	"code.gitea.io/gitea/modules/container"
 	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 
 	"xorm.io/xorm"
 	"xorm.io/xorm/schemas"

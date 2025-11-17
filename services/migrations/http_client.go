@@ -9,7 +9,7 @@ import (
 
 	"code.gitea.io/gitea/modules/hostmatcher"
 	"code.gitea.io/gitea/modules/proxy"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 )
 
 // NewMigrationHTTPClient returns a HTTP client for migration

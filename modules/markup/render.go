@@ -15,7 +15,7 @@ import (
 
 	"code.gitea.io/gitea/modules/htmlutil"
 	"code.gitea.io/gitea/modules/markup/internal"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/util"
 
 	"github.com/yuin/goldmark/ast"

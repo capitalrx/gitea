@@ -14,7 +14,7 @@ import (
 	"code.gitea.io/gitea/modules/json"
 	"code.gitea.io/gitea/modules/log"
 	"code.gitea.io/gitea/modules/private"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/services/context"
 	"code.gitea.io/gitea/services/mailer"
 	sender_service "code.gitea.io/gitea/services/mailer/sender"

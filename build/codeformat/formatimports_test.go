@@ -57,7 +57,7 @@ import (
 
 	"code.gitea.io/other/package"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/util"
 
   "xorm.io/the/package"
@@ -81,7 +81,7 @@ import (
 	_ "image/jpeg" // for processing jpeg images
 	_ "image/png"  // for processing png images
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/util"
 
 	"code.gitea.io/other/package"

@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"code.gitea.io/gitea/modules/session"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 )
 
 // SetRedirectToCookie convenience function to set the RedirectTo cookie consistently

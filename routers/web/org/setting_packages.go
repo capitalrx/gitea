@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/templates"
 	shared "code.gitea.io/gitea/routers/web/shared/packages"
 	shared_user "code.gitea.io/gitea/routers/web/shared/user"

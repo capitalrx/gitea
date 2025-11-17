@@ -8,8 +8,8 @@ import (
 
 	avatars_model "code.gitea.io/gitea/models/avatars"
 	system_model "code.gitea.io/gitea/models/system"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/setting/config"
+	"github.com/capitalrx/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting/config"
 
 	"github.com/stretchr/testify/assert"
 )

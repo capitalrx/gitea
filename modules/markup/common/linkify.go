@@ -16,7 +16,7 @@ import (
 	"github.com/yuin/goldmark/parser"
 	"github.com/yuin/goldmark/text"
 	"github.com/yuin/goldmark/util"
-	"mvdan.cc/xurls/v2"
+	"github.com/mvdan/xurls"
 )
 
 type GlobalVarsType struct {

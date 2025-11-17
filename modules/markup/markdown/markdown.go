@@ -14,7 +14,7 @@ import (
 	"code.gitea.io/gitea/modules/markup"
 	"code.gitea.io/gitea/modules/markup/common"
 	"code.gitea.io/gitea/modules/markup/markdown/math"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	giteautil "code.gitea.io/gitea/modules/util"
 
 	chromahtml "github.com/alecthomas/chroma/v2/formatters/html"

@@ -15,7 +15,7 @@ import (
 	_ "image/jpeg" // for processing jpeg images
 
 	"code.gitea.io/gitea/modules/avatar/identicon"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 
 	"golang.org/x/image/draw"
 

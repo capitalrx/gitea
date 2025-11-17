@@ -14,7 +14,7 @@ import (
 	user_model "code.gitea.io/gitea/models/user"
 	pwd "code.gitea.io/gitea/modules/auth/password"
 	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 
 	"github.com/urfave/cli/v3"
 )

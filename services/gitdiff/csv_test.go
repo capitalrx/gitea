@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	csv_module "code.gitea.io/gitea/modules/csv"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 
 	"github.com/stretchr/testify/assert"
 )

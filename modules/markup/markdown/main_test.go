@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 )
 
 func TestMain(m *testing.M) {

@@ -16,7 +16,7 @@ import (
 	"code.gitea.io/gitea/modules/cachegroup"
 	"code.gitea.io/gitea/modules/git"
 	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 
 	"github.com/42wim/sshsig"
 	"github.com/ProtonMail/go-crypto/openpgp/packet"

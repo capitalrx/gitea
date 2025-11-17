@@ -8,7 +8,7 @@ import (
 	"strconv"
 
 	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 
 	"xorm.io/xorm"
 	"xorm.io/xorm/schemas"

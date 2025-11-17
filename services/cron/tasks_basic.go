@@ -12,7 +12,7 @@ import (
 	user_model "code.gitea.io/gitea/models/user"
 	"code.gitea.io/gitea/models/webhook"
 	"code.gitea.io/gitea/modules/git/gitcmd"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/services/auth"
 	"code.gitea.io/gitea/services/migrations"
 	mirror_service "code.gitea.io/gitea/services/mirror"
@@ -32,7 +32,7 @@ func registerUpdateMirrorTask() {
 		BaseConfig: BaseConfig{
 			Enabled:    true,
 			RunAtStart: false,
-			Schedule:   "@every 10m",
+			Schedule:   "@every 1m",
 		},
 		PullLimit: 50,
 		PushLimit: 50,

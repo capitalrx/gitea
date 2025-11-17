@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"code.gitea.io/gitea/modules/reqctx"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 )
 
 const ContextDataKeySignedUser = "SignedUser"

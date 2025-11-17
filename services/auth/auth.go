@@ -16,7 +16,7 @@ import (
 	"code.gitea.io/gitea/modules/log"
 	"code.gitea.io/gitea/modules/optional"
 	"code.gitea.io/gitea/modules/session"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/web/middleware"
 	gitea_context "code.gitea.io/gitea/services/context"
 	user_service "code.gitea.io/gitea/services/user"
