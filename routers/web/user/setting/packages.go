@@ -9,7 +9,7 @@ import (
 
 	user_model "code.gitea.io/gitea/models/user"
 	chef_module "code.gitea.io/gitea/modules/packages/chef"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/templates"
 	"code.gitea.io/gitea/modules/util"
 	shared "code.gitea.io/gitea/routers/web/shared/packages"

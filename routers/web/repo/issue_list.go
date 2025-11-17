@@ -23,7 +23,7 @@ import (
 	db_indexer "code.gitea.io/gitea/modules/indexer/issues/db"
 	"code.gitea.io/gitea/modules/log"
 	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/util"
 	"code.gitea.io/gitea/routers/web/shared/issue"
 	shared_user "code.gitea.io/gitea/routers/web/shared/user"

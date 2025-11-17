@@ -29,7 +29,7 @@ import (
 	"code.gitea.io/gitea/modules/git/gitcmd"
 	"code.gitea.io/gitea/modules/log"
 	repo_module "code.gitea.io/gitea/modules/repository"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/structs"
 	"code.gitea.io/gitea/services/context"
 	repo_service "code.gitea.io/gitea/services/repository"

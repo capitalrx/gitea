@@ -10,7 +10,7 @@ import (
 	"code.gitea.io/gitea/models/db"
 	repo_model "code.gitea.io/gitea/models/repo"
 	code_indexer "code.gitea.io/gitea/modules/indexer/code"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/templates"
 	"code.gitea.io/gitea/routers/common"
 	shared_user "code.gitea.io/gitea/routers/web/shared/user"

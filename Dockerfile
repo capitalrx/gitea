@@ -13,6 +13,7 @@ ARG CGO_EXTRA_CFLAGS
 RUN apk --no-cache add \
     build-base \
     git \
+    ca-certificates \
     nodejs \
     npm \
     && npm install -g pnpm@10 \

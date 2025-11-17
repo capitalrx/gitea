@@ -12,7 +12,7 @@ import (
 	"code.gitea.io/gitea/modules/gtprof"
 	"code.gitea.io/gitea/modules/httplib"
 	"code.gitea.io/gitea/modules/reqctx"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/web/routing"
 	"code.gitea.io/gitea/services/context"
 

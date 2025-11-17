@@ -10,7 +10,7 @@ import (
 	"code.gitea.io/gitea/modules/git"
 	code_indexer "code.gitea.io/gitea/modules/indexer/code"
 	"code.gitea.io/gitea/modules/indexer/code/gitgrep"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/templates"
 	"code.gitea.io/gitea/routers/common"
 	"code.gitea.io/gitea/services/context"

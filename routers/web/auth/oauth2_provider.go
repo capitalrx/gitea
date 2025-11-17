@@ -17,7 +17,7 @@ import (
 	"code.gitea.io/gitea/modules/auth/httpauth"
 	"code.gitea.io/gitea/modules/json"
 	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/templates"
 	"code.gitea.io/gitea/modules/web"
 	auth_service "code.gitea.io/gitea/services/auth"

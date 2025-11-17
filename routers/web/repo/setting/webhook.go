@@ -19,7 +19,7 @@ import (
 	"code.gitea.io/gitea/models/webhook"
 	"code.gitea.io/gitea/modules/git"
 	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	api "code.gitea.io/gitea/modules/structs"
 	"code.gitea.io/gitea/modules/templates"
 	"code.gitea.io/gitea/modules/util"

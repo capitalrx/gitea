@@ -32,7 +32,7 @@ func registerUpdateMirrorTask() {
 		BaseConfig: BaseConfig{
 			Enabled:    true,
 			RunAtStart: false,
-			Schedule:   "@every 10m",
+			Schedule:   "@every 1m",
 		},
 		PullLimit: 50,
 		PushLimit: 50,

@@ -23,7 +23,7 @@ import (
 	"code.gitea.io/gitea/modules/lfs"
 	"code.gitea.io/gitea/modules/log"
 	repo_module "code.gitea.io/gitea/modules/repository"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/storage"
 	"code.gitea.io/gitea/modules/templates"
 	"code.gitea.io/gitea/modules/typesniffer"

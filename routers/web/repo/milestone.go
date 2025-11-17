@@ -12,7 +12,7 @@ import (
 	"code.gitea.io/gitea/models/renderhelper"
 	"code.gitea.io/gitea/modules/markup/markdown"
 	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/templates"
 	"code.gitea.io/gitea/modules/web"
 	"code.gitea.io/gitea/routers/common"

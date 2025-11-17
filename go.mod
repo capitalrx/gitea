@@ -89,6 +89,7 @@ require (
 	github.com/microsoft/go-mssqldb v1.9.3
 	github.com/minio/minio-go/v7 v7.0.95
 	github.com/msteinert/pam v1.2.0
+	github.com/mvdan/xurls v1.1.0
 	github.com/nektos/act v0.2.63
 	github.com/niklasfasching/go-org v1.9.1
 	github.com/olivere/elastic/v7 v7.0.32
@@ -127,7 +128,6 @@ require (
 	google.golang.org/protobuf v1.36.8
 	gopkg.in/ini.v1 v1.67.0
 	gopkg.in/yaml.v3 v3.0.1
-	mvdan.cc/xurls/v2 v2.6.0
 	strk.kbt.io/projects/go/libravatar v0.0.0-20191008002943-06d1c002b251
 	xorm.io/builder v0.3.13
 	xorm.io/xorm v1.3.10

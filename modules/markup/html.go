@@ -16,7 +16,7 @@ import (
 
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"
-	"mvdan.cc/xurls/v2"
+	"github.com/mvdan/xurls"
 )
 
 // Issue name styles

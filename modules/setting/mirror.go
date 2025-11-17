@@ -20,7 +20,7 @@ var Mirror = struct {
 	Enabled:         true,
 	DisableNewPull:  false,
 	DisableNewPush:  false,
-	MinInterval:     10 * time.Minute,
+	MinInterval:     1 * time.Minute,
 	DefaultInterval: 8 * time.Hour,
 }
 

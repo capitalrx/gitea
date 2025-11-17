@@ -12,7 +12,7 @@ import (
 	"code.gitea.io/gitea/models/avatars"
 	issues_model "code.gitea.io/gitea/models/issues"
 	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/templates"
 	"code.gitea.io/gitea/services/context"
 
