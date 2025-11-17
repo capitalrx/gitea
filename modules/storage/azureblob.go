@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/util"
 
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore"

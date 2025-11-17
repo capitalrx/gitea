@@ -19,7 +19,7 @@ import (
 	"code.gitea.io/gitea/modules/gitrepo"
 	"code.gitea.io/gitea/modules/json"
 	cargo_module "code.gitea.io/gitea/modules/packages/cargo"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	cargo_router "code.gitea.io/gitea/routers/api/packages/cargo"
 	cargo_service "code.gitea.io/gitea/services/packages/cargo"
 	"code.gitea.io/gitea/tests"

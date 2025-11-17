@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"time"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 )
 
 // Shutdown calls the internal shutdown function

@@ -9,7 +9,7 @@ import (
 
 	"code.gitea.io/gitea/modules/cache"
 	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 )
 
 func getCacheKey(repoPath, commitID, entryPath string) string {

@@ -15,7 +15,7 @@ import (
 	"code.gitea.io/gitea/modules/git/gitcmd"
 	"code.gitea.io/gitea/modules/log"
 	repo_module "code.gitea.io/gitea/modules/repository"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 )
 
 // updateHeadByRebaseOnToBase handles updating a PR's head branch by rebasing it on the PR current base branch

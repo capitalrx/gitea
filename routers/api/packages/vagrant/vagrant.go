@@ -15,7 +15,7 @@ import (
 	packages_model "code.gitea.io/gitea/models/packages"
 	packages_module "code.gitea.io/gitea/modules/packages"
 	vagrant_module "code.gitea.io/gitea/modules/packages/vagrant"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/routers/api/packages/helper"
 	"code.gitea.io/gitea/services/context"
 	packages_service "code.gitea.io/gitea/services/packages"

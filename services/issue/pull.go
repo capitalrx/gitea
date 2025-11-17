@@ -17,7 +17,7 @@ import (
 	"code.gitea.io/gitea/modules/gitrepo"
 	"code.gitea.io/gitea/modules/graceful"
 	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 )
 
 func getMergeBase(ctx context.Context, repo *repo_model.Repository, gitRepo *git.Repository, pr *issues_model.PullRequest, baseBranch, headBranch string) (string, error) {

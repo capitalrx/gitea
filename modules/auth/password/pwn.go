@@ -9,7 +9,7 @@ import (
 	"fmt"
 
 	"code.gitea.io/gitea/modules/auth/password/pwn"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 )
 
 var ErrIsPwned = errors.New("password has been pwned")

@@ -5,7 +5,7 @@ package v1_12
 
 import (
 	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 
 	"xorm.io/xorm"
 )

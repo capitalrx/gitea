@@ -9,7 +9,7 @@ import (
 	"net/url"
 
 	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 )
 
 func init() {

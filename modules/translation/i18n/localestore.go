@@ -10,7 +10,7 @@ import (
 	"slices"
 
 	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 )
 
 // This file implements the static LocaleStore that will not watch for changes

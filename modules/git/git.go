@@ -16,7 +16,7 @@ import (
 
 	"code.gitea.io/gitea/modules/git/gitcmd"
 	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 
 	"github.com/hashicorp/go-version"
 )

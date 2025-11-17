@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/storage"
 	"code.gitea.io/gitea/services/context"
 )

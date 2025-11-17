@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	"code.gitea.io/gitea/models/migrations/base"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 
 	"xorm.io/xorm"
 )

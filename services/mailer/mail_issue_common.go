@@ -19,7 +19,7 @@ import (
 	"code.gitea.io/gitea/modules/emoji"
 	"code.gitea.io/gitea/modules/log"
 	"code.gitea.io/gitea/modules/markup/markdown"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/translation"
 	incoming_payload "code.gitea.io/gitea/services/mailer/incoming/payload"
 	sender_service "code.gitea.io/gitea/services/mailer/sender"

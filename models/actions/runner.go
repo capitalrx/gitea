@@ -15,7 +15,7 @@ import (
 	"code.gitea.io/gitea/models/shared/types"
 	user_model "code.gitea.io/gitea/models/user"
 	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/timeutil"
 	"code.gitea.io/gitea/modules/translation"
 	"code.gitea.io/gitea/modules/util"

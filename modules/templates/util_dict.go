@@ -12,7 +12,7 @@ import (
 
 	"code.gitea.io/gitea/modules/container"
 	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 )
 
 func dictMerge(base map[string]any, arg any) bool {

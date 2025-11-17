@@ -10,7 +10,7 @@ import (
 
 	"code.gitea.io/gitea/modules/markup"
 	"code.gitea.io/gitea/modules/markup/orgmode"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 
 	"github.com/stretchr/testify/assert"
 )

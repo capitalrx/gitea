@@ -23,7 +23,7 @@ import (
 	"code.gitea.io/gitea/models/unittest"
 	user_model "code.gitea.io/gitea/models/user"
 	nuget_module "code.gitea.io/gitea/modules/packages/nuget"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/structs"
 	"code.gitea.io/gitea/routers/api/packages/nuget"
 	packageService "code.gitea.io/gitea/services/packages"

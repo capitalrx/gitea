@@ -7,7 +7,7 @@ package public
 
 import (
 	"code.gitea.io/gitea/modules/assetfs"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 )
 
 func BuiltinAssets() *assetfs.Layer {

@@ -3,7 +3,7 @@
 
 package git
 
-import "code.gitea.io/gitea/modules/setting"
+import "github.com/capitalrx/gitea/modules/setting"
 
 // Based on https://git-scm.com/docs/git-config#Documentation/git-config.txt-gpgformat
 const (

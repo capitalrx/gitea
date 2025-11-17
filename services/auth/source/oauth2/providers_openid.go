@@ -7,7 +7,7 @@ import (
 	"html/template"
 
 	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/svg"
 
 	"github.com/markbates/goth"

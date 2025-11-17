@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"code.gitea.io/gitea/modules/git/gitcmd"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 )
 
 // ReadTreeToIndex reads a treeish to the index

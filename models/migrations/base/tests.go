@@ -12,7 +12,7 @@ import (
 
 	"code.gitea.io/gitea/models/unittest"
 	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/tempdir"
 	"code.gitea.io/gitea/modules/test"
 	"code.gitea.io/gitea/modules/testlogger"

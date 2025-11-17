@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting/config"
+	"github.com/capitalrx/gitea/modules/setting/config"
 )
 
 type PictureStruct struct {

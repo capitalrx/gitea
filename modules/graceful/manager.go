@@ -12,7 +12,7 @@ import (
 	"code.gitea.io/gitea/modules/gtprof"
 	"code.gitea.io/gitea/modules/log"
 	"code.gitea.io/gitea/modules/process"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 )
 
 type state uint8

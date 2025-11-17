@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	testModule "code.gitea.io/gitea/modules/test"
 	"code.gitea.io/gitea/modules/util"
 

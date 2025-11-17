@@ -14,7 +14,7 @@ import (
 	repo_model "code.gitea.io/gitea/models/repo"
 	secret_model "code.gitea.io/gitea/models/secret"
 	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	issue_service "code.gitea.io/gitea/services/issue"
 )
 

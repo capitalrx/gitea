@@ -13,7 +13,7 @@ import (
 
 	"code.gitea.io/gitea/modules/cache"
 	"code.gitea.io/gitea/modules/git/gitcmd"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 )
 
 // GetBranchCommitID returns last commit ID string of given branch.

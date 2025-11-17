@@ -12,7 +12,7 @@ import (
 
 	"code.gitea.io/gitea/cmd"
 	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 
 	// register supported doc types
 	_ "code.gitea.io/gitea/modules/markup/asciicast"

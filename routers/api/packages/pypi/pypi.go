@@ -16,7 +16,7 @@ import (
 	packages_model "code.gitea.io/gitea/models/packages"
 	packages_module "code.gitea.io/gitea/modules/packages"
 	pypi_module "code.gitea.io/gitea/modules/packages/pypi"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/validation"
 	"code.gitea.io/gitea/routers/api/packages/helper"
 	"code.gitea.io/gitea/services/context"

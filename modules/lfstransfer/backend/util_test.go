@@ -6,7 +6,7 @@ package backend
 import (
 	"testing"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 	"code.gitea.io/gitea/modules/test"
 
 	"github.com/stretchr/testify/assert"

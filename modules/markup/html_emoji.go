@@ -8,7 +8,7 @@ import (
 	"unicode"
 
 	"code.gitea.io/gitea/modules/emoji"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/capitalrx/gitea/modules/setting"
 
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"
